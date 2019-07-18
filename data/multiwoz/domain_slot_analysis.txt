@@ -1,0 +1,19 @@
+area	attraction hotel restaurant
+name	attraction hotel restaurant
+type	attraction hotel
+day	bus train
+departure	bus taxi train
+destination	bus taxi train
+leaveAt	bus
+department	hospital
+book day	hotel restaurant
+book people	hotel restaurant train
+book stay	hotel
+internet	hotel
+parking	hotel
+price range	hotel restaurant
+stars	hotel
+book time	restaurant
+food	restaurant
+arrive by	taxi train
+leave at	taxi train

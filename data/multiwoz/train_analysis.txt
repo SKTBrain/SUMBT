@@ -1,0 +1,1956 @@
+--- attraction-area --- 
+centre	5432	947	816
+west	1366	213	228
+north	683	61	48
+south	1037	97	149
+east	1073	181	194
+do not care	168	15	15
+cambridge	7	0	3
+none	47012	5860	5919
+--- attraction-name --- 
+all saints church	191	56	46
+funky fun house	97	18	37
+christ's college	172	44	45
+the man on the moon	89	0	21
+milton country park	103	0	2
+wandlebury country park	73	22	12
+king's college	63	8	23
+lynne strover gallery	46	13	8
+saint john's college	43	0	5
+broughton house gallery	119	15	17
+old schools	109	16	27
+museum of classical archaeology	81	13	0
+adc theatre	90	1	7
+emmanuel college	67	12	4
+byard art	123	6	17
+soul tree nightclub	88	5	0
+club salsa	81	14	3
+cherry hinton hall and grounds	92	7	5
+museum of archaelogy and anthropology	95	20	15
+castle galleries	107	57	11
+nusha	59	0	24
+regency gallery	24	4	21
+whipple museum of the history of science	36	26	3
+churchill college	93	17	20
+holy trinity church	87	11	27
+cambridge artworks	85	66	25
+cambridge arts theatre	53	6	11
+scott polar museum	57	18	4
+do not care	167	3	27
+scudamores punting co	33	2	2
+clare college	63	14	0
+saint barnabas press gallery	31	6	4
+cambridge and county folk museum	88	18	7
+kettle's yard	55	17	12
+no specific location	1	0	0
+whale of a time	77	7	3
+vue cinema	129	18	0
+cambridge book and print gallery	39	0	3
+ballare	60	38	11
+cafe jello gallery	95	11	29
+riverboat georgina	112	9	8
+the fitzwilliam museum	41	10	23
+sidney sussex college	37	0	0
+saint catharine's college	33	10	15
+great saint mary's church	78	10	35
+cherry hinton water play	64	9	18
+primavera	95	2	10
+cineworld cinema	83	4	14
+magdalene college	67	17	22
+kambar	56	10	15
+parkside pools	71	11	2
+the fez club	53	0	3
+cambridge university botanic gardens	94	23	17
+cambridge museum of technology	85	9	20
+downing college	100	11	7
+clare hall	114	6	8
+cafe jello	4	0	0
+little saint mary's church	27	2	3
+people's portraits exhibition at girton college	48	2	11
+abbey pool and astroturf pitch	60	9	24
+corpus christi	41	3	6
+tenpin	92	3	9
+the cambridge punter	57	3	9
+queens' college	45	8	13
+no	5	0	0
+fez club	7	0	0
+mumford theatre	47	13	12
+the cherry hinton village centre	58	4	2
+jesus green outdoor pool	46	4	18
+trinity college	66	8	6
+gonville and caius college	35	0	0
+camboats	84	14	12
+cambridge	1	0	1
+williams art and antiques	63	11	3
+kings hedges learner pool	39	11	13
+cambridge contemporary art	60	0	2
+the cambridge corn exchange	34	5	6
+the place	53	0	2
+ruskin gallery	30	7	8
+sheep's green and lammas land park fen causeway	40	15	1
+gallery at twelve a high street	22	13	6
+carol	1	0	0
+swimming pool	1	0	0
+kirkwood	0	1	0
+pembroke college	31	8	9
+univ	5	0	0
+the junction	48	26	10
+jesus college	17	3	7
+ay	3	0	0
+fitzwilliam museum	5	0	0
+college	14	0	2
+pizz	1	0	0
+worth house	4	0	0
+fi	3	0	0
+free	3	0	0
+aut	4	0	0
+man on the moon	2	0	0
+bo	1	0	0
+all saint's church	2	0	0
+hughes hall	24	7	0
+city	3	0	0
+christ college	8	0	0
+north	2	0	0
+by	5	0	0
+autu	0	0	1
+garde	1	0	0
+s	3	0	0
+caffe uno	2	0	0
+cambridge belf	4	0	0
+old school	7	0	0
+museum	13	0	0
+love	6	0	0
+cambridge corn exchange	0	4	0
+college in the north	1	0	0
+boating	2	0	0
+older churches	1	0	0
+c	3	0	0
+cambridge punter	6	0	0
+queen's college	4	0	0
+architectural churches	1	0	0
+saint john's college.	8	0	0
+parkside	8	0	0
+ac	3	0	0
+thanh	5	0	0
+the mumford theatre	3	0	0
+fitzbillies	8	0	0
+home from home	5	0	0
+da v	5	0	0
+cambridge temporary art	3	0	0
+centre	1	0	0
+k	7	0	0
+fitzwilliam	4	0	0
+pizza	3	0	0
+scott polar	0	6	0
+da vinci pizzeria	5	0	0
+broughton	3	0	0
+contemporary art museum	6	0	0
+belf	0	0	7
+school	0	0	7
+corn cambridge exchange	0	0	7
+bangkok city	4	0	0
+bed	0	0	1
+mi	0	0	5
+trinity	4	0	0
+t	9	0	0
+none	50935	6434	6394
+--- attraction-type --- 
+museum	2808	487	412
+entertainment	609	77	127
+college	2164	375	298
+nightclub	720	130	77
+swimming pool	748	57	51
+multiple sports	215	30	31
+architecture	621	116	138
+cinema	310	49	56
+boat	613	66	84
+theatre	658	76	162
+concert hall	176	9	19
+park	696	84	82
+do not care	151	8	8
+local site	8	0	0
+hotspot	6	0	0
+church	6	1	0
+special	9	0	0
+galleria	1	0	0
+art	2	0	0
+science	0	1	0
+gallery	4	0	0
+none	46253	5808	5827
+--- bus-day --- 
+wednesday	5	0	0
+none	56773	7374	7372
+--- bus-departure --- 
+cambridge	31	0	0
+none	56747	7374	7372
+--- bus-destination --- 
+london kings cross	14	0	0
+bishops stortford	5	0	0
+cambridge	10	0	0
+kohinoor	4	0	0
+none	56745	7374	7372
+--- bus-leaveAt --- 
+21:45	5	0	0
+none	56773	7374	7372
+--- hospital-department --- 
+paediatric clinic	10	0	0
+do not care	24	0	0
+transitional care	2	0	0
+acute medical assessment unit	21	0	0
+neurology	16	0	0
+oral and maxillofacial surgery and ent	6	0	0
+infectious diseases	13	0	0
+intermediate dependancy area	10	0	0
+plastic and vascular surgery plastics	4	0	0
+cardiology and coronary care unit	4	0	0
+transplant high dependency unit	8	0	0
+emergency department	49	7	0
+john farman intensive care unit	11	0	0
+neurology neurosurgery	3	0	0
+cambridge eye unit	14	0	0
+cardiology	10	0	0
+respiratory medicine	7	0	0
+uro	1	0	0
+urology	8	0	0
+surgery	2	0	0
+medical decisions unit	9	0	0
+gener	1	0	0
+hepatobillary and gastrointestinal surgery regional referral centre	7	0	0
+gastroenterology	10	0	0
+haematology and haematological oncology	3	0	0
+acute medicine for the elderly	18	0	0
+paediatric day unit	4	0	0
+oncology	3	0	0
+psychiatry	6	0	0
+trauma high dependency unit	3	0	0
+children's surgical and medicine	8	0	0
+infusion services	7	0	0
+trauma and orthopaedics	9	0	0
+teenage cancer trust unit	11	0	0
+diabetes and endocrinology	2	0	0
+medicine for the elderly	9	0	0
+clinical decisions unit	3	0	0
+children's oncology and haematology	10	0	0
+neurosciences critical care unit	3	0	0
+coronary care unit	3	0	0
+clinical research facility	5	0	0
+antenatal	4	0	0
+hepatology	5	0	0
+gynaecology	3	0	0
+neurosciences	5	0	0
+paediatric intensive care unit	3	0	0
+haematology day unit	3	0	0
+neonatal unit	2	0	0
+accident	3	0	0
+haematology	4	0	0
+inpatient occupational therapy	3	0	0
+none	56386	7367	7372
+--- hotel-area --- 
+east	1800	361	197
+north	3638	370	302
+centre	2286	224	262
+south	1279	186	91
+west	1354	135	108
+do not care	498	63	54
+southern aylesbray	1	0	0
+cambridge	18	0	4
+el shaddai	1	0	0
+stevenage	1	0	0
+place to be a guesthouse	1	0	0
+peterborough	1	0	0
+bishops stortford	0	4	0
+cheap	7	0	0
+none	45893	6031	6354
+--- hotel-book day --- 
+tuesday	1234	166	181
+friday	1267	186	122
+monday	1137	141	177
+wednesday	1363	151	165
+saturday	1192	194	153
+thursday	1335	135	103
+sunday	1216	137	115
+next friday	1	0	0
+none	48033	6264	6356
+--- hotel-book people --- 
+6	1139	136	135
+1	1161	169	176
+3	1059	138	127
+5	1051	145	153
+4	1114	143	98
+2	1152	138	98
+8	990	99	111
+7	1068	133	106
+none	48044	6273	6368
+--- hotel-book stay --- 
+2	2106	272	206
+1	540	81	76
+4	1962	276	217
+5	1957	258	259
+3	2062	211	242
+8	14	0	0
+7	43	0	0
+6	31	0	2
+none	48063	6276	6370
+--- hotel-internet --- 
+yes	7249	978	840
+do not care	620	25	88
+no	143	3	9
+none	48766	6368	6435
+--- hotel-name --- 
+city centre north b and b	146	27	16
+express by holiday inn cambridge	295	65	44
+el shaddai	238	38	35
+a and b guest house	238	16	60
+arbury lodge guest house	0	0	0
+university arms hotel	350	57	47
+kirkwood house	116	35	6
+autumn house	226	26	30
+gonville hotel	299	28	48
+leverton house	138	12	8
+acorn guest house	828	124	93
+the cambridge belfry	317	31	38
+ashley hotel	330	22	46
+the lensfield hotel	187	29	23
+finches bed and breakfast	214	28	31
+worth house	190	47	9
+wandlebury coutn	0	3	0
+allenbell	355	45	24
+rosa's bed and breakfast	202	19	16
+home from home	132	45	9
+avalon	229	42	24
+alpha-milton guest house	150	35	18
+alexander bed and breakfast	564	56	53
+cityroomz	305	36	53
+limehouse	86	14	17
+archway house	177	20	23
+warkworth house	250	29	55
+lovell lodge	144	37	30
+do not care	196	24	9
+aylesbray lodge guest house	233	25	37
+carolina bed and breakfast	166	11	57
+huntingdon marriott hotel	225	33	63
+hobsons house	235	34	16
+hamilton lodge	249	33	26
+whale	5	0	0
+alp	2	0	0
+cambridge belfry	2	0	7
+bridge guest house	223	23	42
+gonville	14	0	0
+cambridge	2	0	0
+acorn  house	1	0	0
+to	7	0	0
+n	6	0	0
+city center north	1	0	0
+caffe	5	0	0
+express by	2	0	0
+clare	5	0	0
+acorn	13	0	6
+sou	4	0	0
+north b and b	9	0	0
+a	3	0	0
+lensfield	2	0	0
+city stop rest	0	0	11
+kirkwood	3	0	0
+levert	3	0	0
+anatolia	1	0	0
+huntingdon marriot hotel	4	0	0
+cherr	2	0	0
+huntingd	0	1	0
+nusha	4	0	0
+aylesbray lodge	0	1	0
+royal spice	1	0	0
+la margherit	4	0	0
+hotel	1	0	0
+gall	3	0	0
+city roomz	3	2	0
+alexander	0	0	6
+caridge belfrey	1	0	0
+yes	1	0	0
+me	5	0	0
+nus	6	0	0
+alexander bed & breakfast	1	0	0
+the allenbell	2	0	0
+gra	1	0	0
+the	5	0	0
+cambridg	3	0	0
+lensfield hotel	8	0	0
+tandoori palace	2	0	0
+huntingdon hotel	3	0	0
+autumn house.	1	0	0
+doubletree by hilton cambridge	0	3	0
+ca	0	0	1
+university arms	16	0	0
+la	1	0	0
+no	7	0	0
+arbury lodge guesthouse	189	26	18
+ashley	9	0	1
+eraina	6	0	0
+cote	3	0	0
+grafton hotel	1	0	0
+uni	3	0	0
+warkworth	2	0	0
+none	48157	6192	6216
+--- hotel-parking --- 
+yes	7150	791	844
+do not care	730	48	31
+no	291	42	42
+free	8	4	2
+none	48599	6489	6453
+--- hotel-price range --- 
+cheap	3011	401	368
+do not care	390	26	60
+moderate	4546	652	517
+expensive	1846	238	327
+none	46985	6057	6100
+--- hotel-stars --- 
+4	5867	722	554
+2	643	103	131
+0	789	119	90
+3	1715	146	235
+do not care	226	44	48
+1	48	2	3
+5	42	0	3
+none	47448	6238	6308
+--- hotel-type --- 
+hotel	3444	346	380
+guest house	6422	879	756
+do not care	244	28	16
+none	46668	6121	6220
+--- restaurant-area --- 
+centre	7634	1217	1170
+south	1661	116	198
+north	1632	148	115
+east	1396	155	202
+west	1873	189	186
+do not care	545	24	25
+none	42037	5525	5476
+--- restaurant-book day --- 
+thursday	1302	137	165
+wednesday	1367	207	203
+friday	1268	153	228
+monday	1220	161	192
+sunday	1411	131	168
+saturday	1284	252	194
+tuesday	1164	154	132
+thur	4	0	0
+w	1	0	0
+none	47757	6179	6090
+--- restaurant-book people --- 
+2	1182	152	107
+3	1146	127	169
+1	1035	203	141
+5	1144	139	157
+6	1150	134	191
+4	1005	144	160
+7	1197	162	177
+8	1167	130	185
+none	47752	6183	6085
+--- restaurant-book time --- 
+19:45	161	20	41
+13:45	263	11	35
+10:15	37	12	11
+19:15	191	25	12
+11:30	219	30	25
+10:30	35	4	3
+18:45	161	38	31
+13:30	231	34	39
+15:00	187	27	22
+11:45	243	52	21
+12:00	309	20	37
+15:15	272	34	36
+16:45	267	47	29
+15:45	186	17	30
+17:15	239	36	47
+19:30	235	19	42
+14:00	268	41	40
+10:45	40	16	2
+17:30	225	20	64
+16:30	233	33	37
+17:00	266	37	31
+12:30	237	39	42
+18:15	254	31	35
+18:00	239	34	26
+20:15	23	7	0
+12:45	250	39	15
+14:15	179	15	10
+13:15	196	22	38
+10:00	66	7	1
+16:00	303	27	44
+19:00	205	41	27
+12:15	236	44	38
+11:00	240	21	29
+11:15	225	30	22
+15:30	251	12	30
+14:30	214	31	34
+18:30	237	42	37
+14:45	284	37	18
+17:45	264	25	34
+09:15	4	1	0
+09:45	4	0	3
+16:15	201	27	38
+13:00	217	40	60
+20:00	234	17	37
+21:00	48	5	11
+20:30	45	14	0
+20:45	8	0	1
+09:00	2	0	0
+do not care	3	0	0
+13:10	7	0	0
+21:45	0	0	1
+08:45	0	0	1
+09:30	0	0	0
+1:00	0	1	0
+9:00	2	2	2
+9:30	0	0	2
+2:00	3	0	0
+9	1	0	0
+9:45	4	0	2
+9:15	0	2	0
+3:00	4	0	0
+none	47820	6188	6099
+--- restaurant-food --- 
+turkish	442	48	53
+indian	2564	269	384
+chinese	2280	245	318
+seafood	107	12	6
+italian	1967	222	279
+british	1396	209	215
+australasian	17	1	0
+australian	13	1	0
+asian oriental	622	31	53
+thai	321	70	10
+vegetarian	40	1	6
+modern european	536	98	69
+gastropub	473	60	41
+south indian	5	1	2
+european	903	93	91
+portuguese	345	29	16
+swiss	18	0	0
+crossover	19	3	0
+catalan	16	2	3
+french	279	45	19
+do not care	515	22	31
+mexican	178	24	33
+welsh	12	2	2
+korean	185	29	22
+tuscan	15	0	0
+new zealand	7	1	0
+molecular gastronomy	7	2	4
+eritrean	12	2	2
+british food	2	0	0
+the americas	16	1	0
+north american	166	32	0
+spanish	330	46	27
+barbeque	17	2	0
+persian	19	1	1
+greek	15	7	0
+lebanese	142	18	10
+vietnamese	217	7	3
+belgian	13	5	2
+creative	13	0	3
+jamaican	26	2	2
+scottish	18	3	0
+cuban	20	0	0
+japanese	147	1	12
+sri lankan	16	0	2
+light bites	8	4	0
+moroccan	20	2	1
+latin american	13	1	0
+african	170	21	26
+basque	12	0	1
+modern global	6	1	2
+halal	10	1	2
+mediterranean	368	51	92
+bistro	16	0	0
+international	376	41	54
+unusual	12	2	4
+north indian	21	2	1
+modern eclectic	9	1	3
+danish	28	0	1
+afghan	17	3	2
+world	11	2	0
+northern european	7	4	1
+german	20	3	1
+cantonese	15	1	1
+irish	24	0	3
+romanian	8	0	1
+russian	17	4	0
+english	15	0	0
+corsica	24	2	7
+steakhouse	19	3	2
+hungarian	14	4	3
+singaporean	11	1	0
+austrian	32	0	0
+venetian	17	1	1
+ital	1	0	0
+polynesian	15	5	1
+kosher	22	1	0
+swedish	20	1	2
+scandinavian	12	1	0
+modern american	22	2	2
+christmas	17	4	0
+malaysian	23	1	0
+north african	8	1	0
+brazilian	9	0	4
+canapes	7	0	4
+caribbean	21	2	1
+south african	13	0	2
+traditional	12	1	2
+indonesian	18	4	1
+middle eastern	6	0	4
+fusion	16	1	0
+polish	14	1	2
+asian	12	0	0
+not mentionedc	1	0	0
+afternoon tea	5	1	2
+eastern european	7	1	2
+panasian	11	4	1
+kor	1	0	0
+gastro pub	2	0	0
+american	4	0	0
+pizza	1	0	0
+modern english	0	1	0
+barbecue	2	0	0
+thai and chinese	1	0	0
+sushi	1	0	0
+none	40683	5540	5412
+--- restaurant-name --- 
+meze bar restaurant	32	5	14
+indian	3	0	0
+pizza hut city centre	46	3	15
+the good luck chinese food takeaway	39	0	23
+caffe uno	73	6	10
+the gardenia	87	11	13
+the oak bistro	103	3	0
+do not care	137	17	20
+sala thong	65	10	6
+thanh binh	75	4	14
+riverside brasserie	73	15	10
+cambri	4	0	0
+pizza express	67	23	3
+yippee noodle bar	105	17	12
+curry prince	130	12	37
+midsummer house restaurant	59	26	19
+cote	56	15	12
+restaurant alimentum	50	24	2
+nandos city centre	65	0	12
+chiquito restaurant bar	51	6	11
+maharajah tandoori restaurant	34	18	7
+yu garden	75	3	6
+bangkok city	101	15	4
+copper kettle	2	0	0
+backstreet bistro	56	8	5
+the golden curry	42	0	16
+don pasquale pizzeria	24	18	4
+sesame restaurant and bar	45	0	4
+charlie	0	0	2
+the cow pizza kitchen and bar	73	0	7
+india house	52	3	4
+loch fyne	72	4	11
+eraina	67	0	12
+royal spice	109	9	12
+prezzo	69	0	22
+curry king	42	6	0
+the nirala	61	9	9
+curry garden	147	32	35
+zizzi cambridge	71	5	14
+da vinci pizzeria	85	11	3
+jinling noodle bar	84	11	5
+la raza	68	23	14
+cotto	51	34	3
+efes restaurant	56	4	0
+taj tandoori	51	3	0
+golden wok	120	32	17
+charlie chan	105	29	9
+kohinoor	80	4	7
+bedouin	140	7	18
+the cambridge chop house	53	22	2
+stazione restaurant and coffee bar	68	9	9
+graffiti	100	3	4
+pizza hut	12	0	1
+la mimosa	46	4	23
+city stop	3	0	0
+grafton hotel restaurant	47	5	7
+pizza hut fen ditton	52	3	19
+ba	2	0	0
+frankie and bennys	73	8	16
+rajmahal	21	8	7
+rice boat	70	20	5
+the missing sock	57	2	13
+the varsity restaurant	65	8	11
+panahar	58	5	9
+nandos	111	21	25
+sitar tandoori	64	17	0
+oak bistro	7	0	0
+scudamores punt	0	2	0
+lovel	3	0	0
+anatolia	80	11	2
+clowns cafe	30	20	13
+gourmet burger kitchen	80	0	0
+tandoori palace	115	8	2
+ali baba	45	11	0
+darrys cookhouse and wine shop	39	6	15
+hakka	88	5	0
+peking restaurant	58	3	11
+de luca cucina and bar	59	17	0
+the slug and lettuce	46	16	9
+city stop restaurant	65	3	20
+kymmoy	50	16	13
+cambridge lodge restaurant	32	0	13
+tandoori	3	0	6
+bloomsbury restaurant	72	2	4
+ugly duckling	97	2	2
+hk fusion	46	0	0
+pizza hut cherry hinton	17	17	15
+fitzbillies restaurant	69	26	7
+hotel du vin and bistro	26	11	0
+no	13	0	0
+restaurant two two	38	11	7
+dojo noodle bar	88	2	17
+fi	3	0	0
+the copper kettle	67	15	9
+michaelhouse cafe	24	16	3
+restaurant one seven	53	4	17
+the hotpot	41	8	7
+royal standard	54	8	0
+lev	2	0	0
+the river bar steakhouse and grill	37	0	6
+pipasha restaurant	41	6	7
+golden curry	7	0	0
+saigon city	61	15	7
+pizza express fen ditton	63	10	7
+little seoul	77	2	24
+meghna	81	15	13
+saffron brasserie	82	10	6
+j restaurant	62	5	13
+la margherita	75	7	10
+the lucky star	41	28	11
+lan hong house	26	16	9
+hotpot	12	0	0
+ask	38	7	11
+the gandhi	72	17	2
+cocum	42	11	15
+golden house	55	6	8
+la tasca	62	12	5
+shanghai family restaurant	51	0	2
+worth house	3	0	0
+wagamama	32	20	8
+galleria	87	6	10
+lo	5	0	0
+travellers rest	87	10	9
+mahal of cambridge	27	0	17
+archway	2	0	0
+molecular gastonomy	1	0	0
+european	1	0	0
+saint johns chop house	34	15	11
+anatolia and efes restaurant	1	0	0
+shiraz restaurant	60	16	17
+nirala	8	0	0
+not metioned	2	0	0
+cott	2	0	0
+cambridge chop house	3	0	0
+bridge	2	0	4
+lucky star	4	0	0
+clu	2	0	0
+tang chinese	25	14	8
+the	3	0	0
+rice house	62	13	9
+limehouse	3	0	0
+clowns	3	0	0
+restaurant	1	0	0
+parkside pools	2	0	0
+the dojo noodle bar	2	0	0
+nusha	4	0	0
+hobson house	2	0	0
+au	3	0	0
+curry queen	14	3	0
+el shaddai	1	0	0
+old school	5	0	0
+el	1	6	0
+cam	0	0	0
+yes	1	0	0
+gardenia	7	0	0
+fin	2	0	0
+efes	2	0	0
+slug and lettuce	2	3	0
+camboats	7	0	0
+missing sock	2	0	0
+grafton	3	0	0
+nus	6	0	0
+cambridge lodge	7	0	0
+fitzbillies	8	0	0
+hamilton lodge	3	0	0
+gastropub	1	0	0
+funky	3	0	0
+cow pizza	4	0	0
+ashley	3	0	0
+ros	3	0	0
+hobso	3	0	0
+kitchen and bar	4	0	0
+d	1	0	0
+cityr	4	0	0
+pipasha	0	4	0
+seasame restaurant and bar	1	0	0
+the alex	0	3	0
+hu	5	0	0
+one seven	0	1	0
+shanghi family restaurant	0	2	0
+cambridge be	0	0	5
+dif	0	0	2
+margherita	0	0	5
+ac	4	0	0
+bri	3	0	0
+india	0	0	3
+adden	3	0	0
+ian hong house	0	0	2
+the yippee noodle bar	1	0	0
+alex	5	0	0
+lan hong	2	0	0
+none	49485	6231	6280
+--- restaurant-price range --- 
+expensive	6141	886	928
+cheap	3312	357	326
+moderate	4464	459	504
+do not care	493	19	27
+none	42368	5653	5587
+--- taxi-arrive by --- 
+19:15	33	0	0
+15:45	25	6	7
+17:15	31	5	5
+17:30	56	2	10
+17:00	41	4	5
+12:30	33	5	7
+19:30	35	7	7
+12:45	43	2	12
+18:00	26	10	4
+13:30	37	5	0
+13:15	29	2	7
+17:45	45	17	9
+11:15	46	4	2
+14:30	39	5	11
+14:45	54	5	2
+11:45	33	5	7
+09:15	19	3	0
+16:45	38	4	7
+16:15	35	4	6
+01:30	11	0	3
+12:15	42	3	13
+06:45	7	0	0
+01:00	16	0	4
+09:30	0	5	0
+12:00	39	3	3
+11:30	39	9	6
+18:30	47	5	5
+15:30	49	3	2
+18:45	26	9	6
+14:00	55	8	3
+21:00	9	0	0
+15:00	36	7	0
+08:15	4	0	1
+10:15	2	0	0
+19:00	28	7	4
+20:15	17	0	0
+11:00	22	0	2
+15:15	34	11	3
+05:15	10	0	6
+16:30	27	3	4
+21:30	5	0	3
+08:00	6	0	0
+20:00	40	6	15
+20:30	3	0	0
+20:45	8	0	0
+10:45	17	3	3
+13:00	32	4	3
+09:00	6	10	1
+21:45	4	1	0
+16:00	47	1	0
+19:45	23	7	2
+16;15	2	0	0
+06:00	6	0	2
+10:30	3	0	0
+23:15	2	6	0
+13:45	42	2	6
+14:15	44	0	0
+18:15	35	3	7
+04:00	13	0	0
+24:45	5	0	0
+07:00	14	0	0
+04:15	3	0	0
+23:00	17	0	0
+03:00	6	0	0
+02:45	7	0	0
+10:00	15	3	0
+07:15	16	0	0
+24:15	4	0	0
+04:45	8	3	0
+01:15	3	0	0
+06:30	6	0	0
+23:30	11	0	0
+06:15	9	0	0
+21:15	8	0	0
+07:30	9	0	2
+02:00	6	0	3
+22:30	9	5	0
+24:00	8	0	0
+02:15	9	7	2
+03:15	9	2	0
+05:00	1	0	0
+03:30	5	0	2
+01:45	3	0	0
+22:15	5	0	0
+03:45	5	0	0
+09:45	6	0	3
+05:30	7	0	0
+17:05	2	0	0
+02:30	2	3	0
+22:00	8	0	0
+04:30	4	3	0
+24:30	0	4	0
+15:23	2	0	0
+08:30	0	0	4
+07:45	2	0	0
+15 minutes	3	0	0
+after 2:00	1	0	0
+none	54984	7133	7141
+--- taxi-departure --- 
+christ's college	62	4	11
+kirkwood house	27	2	0
+bridge guest house	45	8	11
+cineworld cinema	25	0	9
+gonville hotel	62	8	8
+ashley hotel	70	7	9
+arbury lodge guesthouse	38	4	6
+worth house	26	12	0
+city centre north b and b	20	3	0
+the lensfield hotel	35	5	5
+funky fun house	19	10	9
+riverboat georgina	33	7	6
+backstreet bistro	16	0	0
+the junction	31	5	10
+express by holiday inn cambridge	36	4	20
+all saints church	51	14	16
+sala thong	11	0	0
+byard art	39	4	2
+london kings cross train station	32	2	3
+la raza	12	0	4
+alexander bed and breakfast	115	22	12
+cityroomz	68	13	7
+hamilton lodge	34	8	3
+alpha-milton guest house	26	0	0
+el shaddai	54	0	0
+restaurant alimentum	7	3	0
+allenbell	52	2	6
+churchill college	27	0	3
+clare college	26	0	3
+parkside pools	35	0	2
+cambridge arts theatre	16	0	8
+frankie and bennys	15	4	0
+huntingdon marriott hotel	65	0	7
+university arms hotel	57	14	8
+acorn guest house	145	19	12
+soul tree nightclub	9	3	0
+ali baba	9	0	0
+tandoori palace	13	0	4
+saigon city	10	0	0
+zizzi cambridge	0	0	8
+wagamama	4	0	1
+the cambridge belfry	60	6	3
+milton country park	33	6	0
+a and b guest house	40	0	11
+city stop restaurant	4	0	7
+grafton hotel restaurant	13	0	4
+the man on the moon	37	0	3
+king's college	14	0	0
+great saint mary's church	14	0	3
+the oak bistro	13	0	0
+club salsa	40	3	0
+loch fyne	10	0	0
+the place	12	8	0
+la mimosa	3	3	2
+la margherita	14	0	0
+restaurant two two	9	4	0
+queens' college	18	4	0
+wandlebury country park	26	4	7
+kymmoy	3	3	0
+magdalene college	16	0	0
+royal standard	9	5	0
+kings lynn train station	10	0	0
+the fez club	18	5	0
+jesus green outdoor pool	14	0	3
+vue cinema	28	2	2
+little saint mary's church	18	0	0
+avalon	26	3	7
+aylesbray lodge guest house	57	3	2
+chinese city centre	4	0	0
+thanh binh	19	3	0
+yu garden	8	0	6
+finches bed and breakfast	45	2	8
+hakka	13	0	0
+lovell lodge	19	0	5
+kettle's yard	19	0	0
+bloomsbury restaurant	13	0	2
+museum of classical archaeology	14	9	2
+cherry hinton water play	20	2	3
+camboats	22	5	0
+pizza hut cherry hinton	13	0	3
+abbey pool and astroturf pitch	29	2	2
+pizza hut	1	0	0
+taj tandoori	3	0	1
+kings hedges learner pool	24	3	0
+nandos city centre	15	0	0
+hobsons house	41	8	2
+carolina bed and breakfast	31	0	8
+the golden curry	9	2	0
+rosa's bed and breakfast	38	5	0
+the river bar steakhouse and grill	6	0	0
+cafe jello gallery	28	4	6
+the cambridge punter	10	5	4
+the byard art museum	2	0	0
+archway house	35	6	2
+ugly duckling	6	3	0
+cherry hinton hall and grounds	14	0	0
+addenbrookes hospital	9	0	0
+graffiti	10	0	0
+cambridge artworks	22	14	5
+broughton house gallery	30	2	7
+the missing sock	8	2	9
+autumn house	26	4	0
+stazione restaurant and coffee bar	4	0	1
+whale of a time	23	2	4
+cambridge lodge restaurant	3	2	2
+saint johns chop house	13	0	4
+prezzo	13	0	0
+rice boat	12	6	2
+lan hong house	7	2	9
+leverton house	27	4	2
+kambar	4	0	0
+hotel	3	0	0
+museum of archaelogy and anthropology	22	5	0
+saint catharine's college	13	5	0
+la tasca	10	3	0
+cambridge	10	0	0
+downing college	24	8	2
+cocum	12	0	3
+mumford theatre	17	0	2
+cote	6	5	0
+golden wok	21	0	5
+cambridge university botanic gardens	18	5	4
+charlie chan	14	8	0
+corpus christi	17	5	0
+old schools	38	9	11
+cambridge belfry	2	0	0
+jinling noodle bar	19	2	0
+birmingham new street train station	5	0	0
+meze bar restaurant	10	2	0
+warkworth house	23	4	6
+pizza express	8	0	0
+gonville and caius college	12	3	3
+cambridge contemporary art	20	6	0
+primavera	20	3	3
+adc theatre	17	0	3
+bedouin	29	0	0
+w	1	0	0
+trinity college	12	5	0
+nusha	22	2	3
+the good luck chinese food takeaway	4	0	0
+travellers rest	9	0	0
+restaurant one seven	4	0	0
+pizza hut fen ditton	11	3	4
+ask	13	0	0
+cambridge and county folk museum	26	2	7
+curry prince	8	2	9
+the nirala	14	0	0
+pembroke college	8	2	0
+golden house	3	2	3
+castle galleries	16	3	4
+the fitzwilliam museum	13	0	2
+galleria	2	0	0
+jesus college	8	6	0
+curry garden	21	2	1
+anatolia	11	0	0
+the gandhi	2	6	4
+nandos	9	0	0
+st. john's college	3	0	0
+clowns cafe	13	5	0
+dojo noodle bar	4	0	10
+panahar	6	0	0
+whipple museum of the history of science	18	6	0
+royal spice	9	3	3
+clare hall	3	0	3
+gallery at twelve a high street	10	5	0
+pizza hut city centre	2	0	7
+bishops stortford train station	4	0	3
+ruskin gallery	6	3	0
+sheep's green and lammas land park fen causeway	14	2	2
+home from home	11	1	0
+parkside police station	11	0	4
+scudamores punting co	9	4	3
+the cherry hinton village centre	7	0	3
+sesame restaurant and bar	4	2	0
+broxbourne train station	7	0	0
+sidney sussex college	12	3	0
+chiquito restaurant bar	9	0	0
+cambridge train station	13	3	0
+saffron brasserie	14	4	2
+pizza express fen ditton	9	0	3
+tenpin	21	0	2
+scott polar museum	3	1	4
+rice house	9	0	0
+caffee uno	0	0	3
+cotto	0	2	0
+corpus cristi	1	0	0
+the varsity restaurant	8	0	0
+limehouse	9	0	3
+ely train station	11	0	0
+hotel du vin and bistro	2	3	0
+meghna	6	0	0
+the gardenia	8	0	3
+emmanuel college	19	3	0
+saint barnabas press gallery	2	4	0
+rajmahal	10	3	2
+lynne strover gallery	8	0	0
+cas	2	0	0
+riverside brasserie	4	1	10
+hughes hall	9	2	0
+cherry hinton village center	2	0	0
+the lucky star	10	0	0
+bangkok city	23	3	0
+kohinoor	19	0	0
+don pasquale pizzeria	7	0	0
+fitzbillies restaurant	9	6	2
+acorn house	2	0	0
+curry queen	2	0	0
+ballare	10	10	4
+the cambridge corn exchange	9	0	2
+lens	2	0	0
+cambridge museum of technology	16	3	0
+the cambridge chop house	0	4	0
+peterborough train station	5	0	0
+london liverpool street	3	0	0
+the copper kettle	2	2	2
+holy trinity church	29	4	4
+the slug and lettuce	0	1	0
+williams art and antiques	11	3	6
+the avalon	1	0	0
+junction theatre	3	0	0
+yippee noodle bar	10	0	4
+da vinci pizzeria	4	0	0
+maharajah tandoori restaurant	13	5	0
+darrys cookhouse and wine shop	6	3	0
+michaelhouse cafe	2	0	0
+tang chinese	11	0	0
+peking restaurant	11	5	0
+saint john's college	7	4	4
+aylesbray lodge	3	0	0
+the alexander bed and breakfast	3	0	0
+ely	3	0	0
+cambridge belfy	2	0	0
+kings college	0	2	0
+eraina	3	0	2
+people's portraits exhibition at girton college	4	0	0
+gonville	2	0	0
+caffe uno	3	4	0
+the cow pizza kitchen and bar	3	5	4
+mahal of cambridge	3	0	0
+lovell ldoge	4	0	0
+alyesbray lodge hotel	2	0	0
+g	1	0	0
+cambridge chop house	2	0	0
+j restaurant	6	0	0
+172 chestertown road	2	0	0
+little seoul	5	0	2
+stevenage train station	4	2	0
+downing street	1	0	0
+gourmet burger kitchen	9	0	3
+cambridge towninfo centre	7	0	0
+citiroomz	2	0	0
+de luca cucina and bar	3	0	0
+london liverpool street train station	8	0	0
+cinema	3	0	0
+museum	3	0	0
+shiraz restaurant	2	0	0
+clair hall	2	0	0
+sitar tandoori	2	6	0
+ca	9	0	0
+cambridge book and print gallery	3	0	2
+norwich train station	2	0	0
+home	0	3	0
+regency gallery	0	0	3
+nstaot mentioned	3	0	0
+new england	0	0	1
+the hotpot	0	0	3
+park	0	0	3
+07:15	0	0	4
+the allenbell	0	3	0
+curry king	6	0	0
+india house	3	0	0
+none	52741	6785	6802
+--- taxi-destination --- 
+express by holiday inn cambridge	36	5	4
+dojo noodle bar	31	6	0
+wandlebury country park	8	0	2
+leverton house	4	0	0
+the cambridge chop house	33	4	0
+saint john's college	5	0	0
+galleria	31	0	3
+churchill college	20	3	9
+royal spice	16	6	4
+all saints church	23	7	15
+nandos city centre	17	7	0
+cote	17	0	0
+chiquito restaurant bar	28	2	0
+saint johns chop house	15	0	2
+the nirala	23	4	0
+tang chinese	17	0	3
+the junction	16	3	4
+bangkok city	33	4	0
+cambridge university botanic gardens	22	0	0
+the lucky star	23	5	6
+london liverpool street train station	11	0	0
+la raza	22	5	4
+soul tree nightclub	12	7	2
+the cow pizza kitchen and bar	10	3	3
+yippee noodle bar	25	6	3
+christ's college	43	13	5
+el shaddai	18	5	11
+castle galleries	33	12	2
+saint catharine's college	4	5	5
+riverside brasserie	39	2	4
+fitzbillies restaurant	19	0	3
+cambridge	9	2	0
+camb	12	0	0
+the golden curry	12	2	5
+wagamama	11	6	5
+jinling noodle bar	22	4	2
+maharajah tandoori restaurant	14	3	0
+little saint mary's church	10	0	5
+camboats	17	3	8
+cotto	9	5	0
+nusha	16	1	0
+acorn guest house	74	10	9
+frankie and bennys	18	0	2
+jesus green outdoor pool	23	8	3
+aylesbray lodge guest house	16	0	0
+golden wok	24	4	3
+charlie chan	31	3	3
+country folk museum	4	0	0
+huntingdon marriott hotel	43	9	16
+meze bar restaurant	16	3	2
+vue cinema	17	8	2
+adc theatre	14	6	0
+rice house	13	2	0
+graffiti	11	0	0
+saigon city	35	4	2
+city stop restaurant	17	0	7
+carolina bed and breakfast	20	5	0
+cafe jello gallery	13	0	4
+little seoul	22	4	9
+primavera	8	3	0
+kohinoor	29	2	2
+the place	13	0	7
+loch fyne	24	4	3
+rice boat	16	0	0
+kings hedges learner pool	8	0	0
+the cambridge belfry	9	0	0
+cambridge artworks	18	6	4
+pizza hut cherry hinton	19	7	3
+cambridge train station	6	0	0
+sitar tandoori	12	7	0
+the gardenia	26	2	5
+don pasquale pizzeria	11	3	7
+milton country park	38	2	0
+hamilton lodge	26	3	0
+hobsons house	26	2	5
+kirkwood house	4	2	4
+archway house	18	7	0
+the fitzwilliam museum	6	0	0
+alexander bed and breakfast	50	6	10
+cambridge museum of technology	11	0	5
+midsummer house restaurant	21	7	2
+allenbell	41	2	0
+hakka	35	3	0
+old schools	16	5	0
+ashley hotel	33	6	4
+de luca cucina and bar	12	3	11
+cambridge lodge restaurant	16	0	4
+efes restaurant	15	0	0
+bedouin	29	5	3
+club salsa	25	3	0
+bloomsbury restaurant	9	0	0
+hk fusion	4	0	0
+rajmahal	26	0	0
+lynne strover gallery	11	0	0
+abbey pool and astroturf pitch	23	0	0
+taj tandoori	19	0	6
+royal standard	20	2	3
+a and b guest house	24	0	3
+parkside police station	6	0	3
+curry garden	45	17	5
+scudamores punting co	11	1	0
+the lensfield hotel	34	5	2
+the fez club	3	0	0
+university arms hotel	40	9	2
+la margherita	32	6	9
+hotel du vin and bistro	15	0	2
+pizza express fen ditton	21	0	0
+hughes hall	7	0	4
+gonville hotel	42	3	6
+the gandhi	8	0	0
+sidney sussex college	15	7	2
+tenpin	20	8	0
+ask	11	0	3
+backstreet bistro	2	10	0
+nandos	25	9	9
+ballare	20	2	7
+ali baba	14	6	0
+india house	18	0	2
+peking restaurant	17	0	5
+meghna	22	0	8
+the river bar steakhouse and grill	8	4	2
+the cambridge punter	20	0	9
+pipasha restaurant	16	2	8
+prezzo	25	0	3
+whale of a time	25	2	6
+finches bed and breakfast	35	2	0
+avalon	23	0	3
+curry prince	41	6	2
+da vinci pizzeria	38	3	4
+corpus christi	24	0	0
+holy trinity church	13	5	5
+the varsity restaurant	25	0	0
+saffron brasserie	24	3	0
+downing college	23	2	0
+sesame restaurant and bar	13	0	2
+cambridge contemporary art	21	0	0
+addenbrookes hospital	17	0	0
+williams art and antiques	21	0	0
+pembroke college	12	0	0
+clare hall	8	0	0
+cambridge arts theatre	18	0	3
+shanghai family restaurant	13	0	2
+king's college	7	0	0
+the cherry hinton village centre	16	0	2
+cambridge and county folk museum	12	1	0
+the hotpot	16	0	0
+bridge guest house	37	3	4
+ugly duckling	26	3	0
+cocum	20	5	0
+stazione restaurant and coffee bar	12	0	3
+gourmet burger kitchen	14	4	0
+la tasca	18	0	0
+shiraz restaurant	5	2	0
+byard art	21	0	0
+sheep's green and lammas land park fen causeway	4	0	0
+caffe uno	19	5	0
+broughton house gallery	33	5	7
+the ghandi	10	0	0
+kambar	9	0	2
+the copper kettle	19	7	0
+yu garden	28	0	4
+trinity college	10	0	3
+birmingham new street train station	2	0	0
+funky fun house	13	0	6
+eraina	31	0	8
+man on the moon concert hall	2	0	0
+tandoori palace	22	0	0
+magdalene college	10	2	2
+worth house	5	9	2
+mumford theatre	9	2	3
+pizza express	30	2	0
+ely train station	9	3	0
+lan hong house	11	0	3
+mahal of cambridge	3	0	5
+pizza hut city centre	7	9	2
+golden house	19	0	2
+alpha-milton guest house	12	0	3
+regency gallery	3	0	3
+darrys cookhouse and wine shop	18	0	0
+cityroomz	8	3	2
+ta	2	0	0
+queen's college	4	0	0
+restaurant one seven	15	0	4
+arbury lodge guesthouse	15	2	8
+the cambridge corn exchange	5	0	0
+the oak bistro	33	2	2
+cambridge county fair next to the city tourist museum	4	0	0
+riverboat georgina	33	1	0
+stansted airport train station	16	0	3
+grafton hotel restaurant	7	2	0
+thanh binh	25	0	3
+autumn house	6	0	5
+restaurant two two	9	1	7
+jesus college	14	0	0
+london kings cross train station	6	0	0
+city centre north b and b	11	5	0
+cherry hinton water play	12	5	0
+travellers rest	15	3	0
+the man on the moon	5	0	0
+rosa's bed and breakfast	21	0	2
+the good luck chinese food takeaway	22	3	0
+curry king	10	0	0
+cambridge book and print gallery	6	0	0
+st johns chop house	2	0	0
+cherry hinton hall and grounds	8	0	0
+anatolia	17	7	3
+saint barnabas press gallery	10	0	0
+j restaurant	11	0	2
+parkside pools	21	0	0
+kymmoy	17	0	0
+scott polar museum	3	8	5
+cineworld cinema	17	0	4
+michaelhouse cafe	4	0	3
+cambr	15	0	0
+restaurant alimentum	16	2	0
+zizzi cambridge	6	0	5
+not museum of archaeology and anthropologymentioned	3	0	0
+gonville and caius college	7	0	0
+lovell lodge	4	3	2
+fitzwilliam museum	5	0	0
+sleeperz hotel	0	0	3
+the slug and lettuce	9	5	0
+whipple museum of the history of science	5	0	6
+broxbourne train station	4	0	7
+home from home	7	3	0
+museum of archaelogy and anthropology	7	8	0
+tandori in cambridge	4	0	0
+gastropub	0	6	0
+the anatolia	0	3	0
+kettle's yard	18	0	0
+nirala	3	0	0
+leicester train station	3	0	2
+cambridge road church of christ	2	0	0
+warkworth house	9	3	2
+megna	3	0	0
+grou	1	0	0
+sala thong	5	5	9
+gallery at twelve a high street	10	0	0
+maharajah tandoori restaurant4	3	0	0
+pizza hut fen ditton	7	3	6
+museum of classical archaeology	10	5	0
+the regent street city center	3	0	0
+gandhi	1	0	0
+emmanuel college	4	0	0
+tranh binh	3	0	0
+wankworth hotel	2	0	0
+kambur	5	0	0
+the missing sock	9	5	3
+panahar	4	0	3
+limehouse	8	2	0
+finders corner newmarket road	2	0	0
+people's portraits exhibition at girton college	2	0	0
+station road	1	0	0
+la mimosa	14	3	4
+clowns cafe	4	0	2
+bishops stortford train station	1	4	0
+hotel	1	0	0
+nil	2	0	0
+kings college	3	0	0
+restaurant	3	0	0
+attraction	2	0	0
+stevenage train station	5	0	3
+the galleria	2	0	0
+queens' college	8	0	0
+great saint mary's church	8	0	0
+theathre	2	0	0
+ruskin gallery	3	1	3
+saint barnabas	3	0	0
+peterborough train station	2	0	0
+cambridge artw2orks	2	0	0
+acorn house	3	0	0
+ca	2	0	0
+clare college	4	6	0
+shiraz.	9	0	0
+riverboat georginawd	3	0	0
+mic	0	0	1
+the gallery at twelve	0	0	4
+the soul tree	3	0	0
+finches	0	0	2
+norwich train station	3	0	0
+ghandi	3	0	0
+ian hong	2	0	0
+none	52670	6793	6798
+--- taxi-leave at --- 
+02:45	29	2	7
+24:45	31	3	2
+08:45	33	0	5
+16:15	24	2	5
+04:45	25	8	0
+24:00	10	4	5
+12:30	36	0	8
+12:00	26	9	2
+02:30	17	2	7
+19:00	29	5	7
+19:45	7	3	4
+13:00	33	2	5
+22:15	14	0	9
+13:45	13	0	6
+15:15	23	5	5
+01:30	30	0	6
+16:45	24	2	12
+07:15	8	5	9
+20:00	30	4	0
+12:15	28	0	5
+21:00	29	9	0
+17:15	13	6	6
+08:00	12	10	0
+10:30	16	7	3
+21:15	27	0	3
+15:00	28	5	0
+05:30	39	7	4
+13:15	10	0	0
+01:15	14	5	5
+06:15	32	0	2
+01:00	33	2	16
+18:30	26	8	5
+06:45	28	5	0
+06:00	19	0	4
+07:45	16	3	0
+06:30	21	0	0
+17:45	38	2	0
+18:15	19	2	2
+19:30	21	10	3
+24:30	18	7	4
+21:30	32	0	5
+03:45	28	5	0
+21:25	1	0	0
+14:30	16	2	0
+17:00	26	3	5
+14:00	38	4	0
+04:30	21	0	3
+23:30	27	0	2
+03:30	19	0	3
+20:15	26	0	0
+24:15	13	0	0
+02:00	17	6	0
+07:00	12	10	0
+23:00	10	0	0
+08:15	15	0	9
+22:00	21	6	0
+10:15	26	0	8
+16:30	23	6	4
+02:15	29	2	2
+18:00	8	3	0
+14:15	25	6	3
+10:00	25	7	2
+17:30	19	0	8
+15:45	13	0	0
+05:45	42	2	0
+19:15	29	0	0
+20:45	12	0	2
+23:45	18	6	2
+15:30	13	17	2
+13:30	13	2	0
+11:45	29	16	7
+05:00	37	2	2
+03:15	14	0	0
+03:20	3	0	0
+07:30	22	2	0
+23:15	13	3	6
+16:00	17	0	0
+09:30	18	3	2
+after 2:30	3	0	0
+11:30	25	6	7
+09:45	29	6	4
+09:15	34	7	5
+09:00	12	5	1
+15:25	3	0	0
+08:30	16	3	0
+14:45	28	10	5
+04:00	35	10	5
+11:00	35	9	11
+22:45	20	5	8
+11:15	24	8	5
+03:00	17	2	6
+04:15	20	2	0
+1615	3	0	0
+22:30	12	3	3
+3:45	6	0	0
+21:45	19	4	0
+after 11:45	2	0	0
+05:15	17	5	0
+8:15	4	0	0
+01:45	20	0	2
+12:45	22	0	3
+10:45	25	2	4
+20:30	5	7	0
+3:15	2	0	0
+18:45	15	4	0
+thursday	3	0	0
+9:00	3	0	0
+21:04	0	0	0
+9:15	4	0	0
+6:00	0	0	0
+10:50	3	0	0
+after 15:45	0	2	0
+1:15	0	0	3
+300	0	0	1
+monday	0	0	1
+friday	0	0	3
+1	0	0	1
+1:00	0	0	0
+none	54613	7017	7051
+--- train-arrive by --- 
+19:45	82	26	11
+20:45	151	30	31
+11:30	171	35	32
+14:45	128	42	22
+08:15	113	37	34
+13:45	158	27	36
+08:00	131	48	45
+08:45	151	21	26
+11:00	103	16	37
+11:45	222	5	35
+08:30	171	24	8
+10:45	102	27	21
+05:00	3	1	0
+20:00	105	17	20
+15:15	122	9	49
+11:15	130	19	37
+19:00	112	13	41
+20:15	140	0	10
+16:45	180	19	28
+12:45	163	28	20
+10:15	122	12	42
+21:00	105	65	18
+15:00	89	9	57
+17:15	142	38	17
+14:30	115	16	33
+20:30	118	20	50
+18:15	122	30	15
+12:15	157	16	19
+18:45	92	21	35
+12:00	118	30	31
+10:00	98	21	14
+21:45	131	16	20
+16:15	111	18	42
+14:00	86	28	14
+18:30	113	30	20
+17:45	199	37	13
+13:30	120	42	9
+19:30	145	23	14
+12:30	176	5	46
+09:15	198	17	49
+09:00	113	21	18
+16:00	149	20	14
+23:00	2	0	4
+10:30	146	65	34
+09:30	161	22	9
+16:30	135	39	38
+18:00	84	17	67
+09:45	160	18	4
+15:45	120	20	15
+19:15	77	13	26
+18:23	1	0	0
+13:00	165	27	20
+17:30	114	12	17
+15:30	112	28	19
+21:15	114	4	8
+13:15	145	24	19
+21:30	151	37	14
+17:00	118	20	15
+14:15	62	32	20
+do not care	11	0	0
+thursday	2	0	0
+05:30	12	0	0
+16:06	0	0	5
+11:52	9	0	0
+06:55	1	0	0
+18:07	5	0	0
+09:06	2	0	0
+07:15	9	0	0
+06:01	3	0	0
+13:52	4	0	0
+22:07	1	0	0
+19:57	2	0	0
+08:44	2	0	0
+06:30	3	0	0
+10:08	0	0	3
+08:07	3	0	0
+07:30	0	7	0
+19:58	5	2	0
+10:43	3	0	0
+13:38	3	0	0
+15:06	4	0	0
+07:35	2	0	0
+01:00	0	0	0
+13:56	5	0	0
+12:07	10	0	0
+15:07	6	0	0
+11:24	1	0	0
+22:00	8	0	0
+14:43	5	0	0
+19:27	2	0	0
+10:32	6	0	0
+06:15	4	0	1
+23:30	1	1	0
+15:01	6	0	0
+16:32	3	0	0
+05:15	3	0	0
+13:32	2	0	0
+07:45	0	1	0
+05:45	0	1	0
+09;45	0	3	0
+18:32	0	3	0
+23:27	1	0	0
+06:45	9	0	0
+19:51	0	3	0
+tuesday	0	1	0
+21:06	0	3	0
+15:24	0	0	3
+17:23	0	0	2
+09:32	5	0	0
+1	1	0	0
+none	49290	5992	5896
+--- train-book people --- 
+1	1574	262	289
+5	705	145	95
+8	680	114	139
+6	586	81	135
+2	649	115	108
+7	697	126	115
+4	595	148	125
+3	672	96	103
+0	3	0	0
+9	5	0	3
+15	6	0	0
+10	6	1	0
+none	50600	6286	6260
+--- train-day --- 
+friday	2202	293	350
+wednesday	2158	446	311
+monday	2016	349	365
+saturday	2160	344	371
+thursday	2115	341	347
+tuesday	2259	335	411
+sunday	2471	382	443
+do not care	1	0	0
+fr	1	0	0
+n	0	0	1
+we	1	0	0
+train	0	0	2
+none	41394	4884	4771
+--- train-departure --- 
+cambridge	7470	1213	1202
+birmingham new street	695	122	127
+ely	687	110	108
+norwich	673	93	93
+bishops stortford	646	172	95
+peterborough	716	85	143
+stevenage	520	83	83
+broxbourne	688	62	82
+london liverpool street	691	91	127
+leicester	723	121	115
+stansted airport	634	120	117
+kings lynn	791	77	122
+london kings cross	693	150	144
+birmingham	5	0	0
+do not care	1	0	0
+saint johns	2	0	0
+wandlebury country park	2	0	0
+liecester	1	0	0
+panahar	3	0	0
+cineworld	5	0	0
+stansted	4	0	0
+el shaddai	2	0	0
+lon	1	0	0
+cafe uno	0	0	2
+leicaster	4	0	0
+city hall	1	0	0
+rosa's bed and breakfast	1	0	0
+norwhich	1	0	0
+cam	0	0	0
+brookshite	1	0	0
+bro	1	0	0
+cambrid	0	7	0
+arbu	2	0	0
+aylesbray lodge guest	4	0	0
+alpha-milton	0	1	0
+a	3	0	0
+london	1	0	0
+hamilton lodge	0	3	0
+duxford	0	0	1
+camboats	0	0	2
+none	41106	4864	4809
+--- train-destination --- 
+bishops stortford	643	74	126
+cambridge	7955	1271	1337
+ely	707	70	132
+peterborough	616	105	96
+norwich	687	116	80
+london liverpool street	739	128	85
+leicester	735	115	89
+kings lynn	562	120	124
+broxbourne	633	124	110
+birmingham new street	602	131	159
+london kings cross	616	96	138
+stansted airport	701	125	116
+stevenage	718	112	66
+lecester	1	0	0
+bishop stortford	7	0	0
+north	1	0	0
+willi	2	0	0
+curry prince	2	0	0
+bournemouth	1	0	0
+centre	4	0	0
+no	1	0	0
+bishops storford	6	0	0
+city centre north	5	0	0
+taj tandoori	2	0	0
+petersborough	1	0	0
+huntington marriott	0	0	2
+hol	0	2	0
+gonv	2	0	0
+liverpool	2	0	0
+huntingdon marriott hotel	0	1	0
+gourmet burger kitchen	0	3	0
+the copper kettle	0	0	2
+none	40827	4781	4710
+--- train-leave at --- 
+21:15	195	25	15
+12:45	128	36	11
+19:45	73	7	23
+14:00	118	24	28
+15:15	189	21	12
+10:00	120	35	18
+09:29	7	0	0
+10:15	111	7	38
+09:15	162	38	22
+19:15	87	14	8
+11:15	153	20	19
+17:45	153	52	5
+14:30	128	10	16
+20:00	93	14	10
+after 9:15 am	2	0	0
+09:30	147	26	22
+08:15	158	4	15
+20:15	123	5	15
+10:45	104	0	0
+14:45	170	0	43
+17:00	178	28	56
+21:00	124	19	3
+17:30	129	14	8
+11:30	129	32	0
+13:45	134	25	26
+12:15	171	11	31
+08:45	98	21	14
+11:45	93	23	6
+09:00	126	36	18
+18:45	141	36	24
+05:15	42	0	0
+18:00	101	18	25
+16:00	117	27	20
+11:00	164	14	6
+05:00	39	9	4
+08:00	112	19	3
+18:30	117	29	27
+21:45	125	10	12
+16:30	140	25	29
+14:15	105	2	3
+16:15	160	11	1
+10:32	3	0	0
+12:30	110	8	46
+13:00	163	25	16
+15:32	4	0	0
+13:30	85	15	45
+02:00	8	0	0
+08:30	162	16	18
+15:00	159	10	3
+10:30	137	5	21
+15:45	173	36	18
+09:45	118	4	27
+21:30	140	18	11
+05:59	2	0	0
+06:00	18	0	0
+18:15	146	5	30
+bishops stortford	1	0	0
+07:45	6	0	0
+05:45	7	0	0
+after 11:30	1	0	0
+12:00	150	11	38
+13:15	128	16	28
+20:45	114	8	9
+16:45	107	17	36
+19:00	67	40	17
+15:30	146	0	5
+17:15	99	32	12
+05:30	14	0	10
+do not care	13	0	0
+18:40	5	0	0
+21:50	8	0	0
+19:30	85	14	19
+06:45	3	0	0
+06:30	4	0	0
+18:06	2	0	0
+22:00	4	0	0
+0	1	0	0
+14:21	0	0	5
+13:11	2	0	0
+21:07	5	0	0
+11:35	3	0	2
+20:30	45	29	3
+monday	1	1	0
+leicester	0	0	3
+07:21	2	0	0
+05:16	3	0	0
+after 8:30	1	0	0
+05:01	3	0	0
+10:36	0	2	5
+20:36	2	0	0
+21:39	0	1	0
+17:59	4	0	0
+18:31	3	0	0
+13:35	3	0	0
+after 19:30	1	0	0
+09:17	0	0	3
+07:15	4	0	0
+morning	2	0	0
+09:59	4	0	0
+07:00	10	5	0
+saturday	2	0	1
+07:54	6	0	0
+09:54	3	0	0
+08:16	5	0	0
+15:24	0	0	2
+15:17	1	0	0
+13:39	6	0	0
+15:11	6	0	0
+13:01	7	0	0
+05:17	2	0	0
+10:34	1	0	0
+10:16	6	0	0
+11:39	2	0	0
+12:06	1	0	0
+11:50	2	0	0
+13:54	13	0	0
+13:29	3	0	0
+19:11	2	2	0
+14:48	3	0	0
+11:21	4	0	0
+12:32	2	0	0
+after 16:30	1	0	0
+15:16	0	5	4
+11:48	0	2	0
+18:11	0	3	0
+18:46	0	3	0
+02:30	6	0	0
+22:01	3	0	0
+19:21	0	3	0
+thursday	0	0	1
+08:01	0	0	2
+15:29	0	0	7
+08:11	0	0	6
+20:40	0	0	2
+13:17	0	0	5
+15:01	0	0	4
+14:34	0	0	3
+08:32	5	0	0
+11:29	2	0	0
+12	1	0	0
+19:16	4	0	0
+after 5:45 pm	0	2	0
+tuesday	0	1	1
+early evening	1	0	0
+sunday	2	0	2
+friday	3	0	0
+afternoon	1	0	0
+none	49215	6288	6266

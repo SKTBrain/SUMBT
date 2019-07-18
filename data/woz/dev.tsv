@@ -1,0 +1,830 @@
+600	0	I'm looking for an expensive restaurant in the south part of town.		south	none	expensive
+600	1	Okay, what is the next one after that.  And can I get the address and phone number both, please?	There is a restaurant called chiquito restaurant bar.	south	none	expensive
+600	2	Thank you. You have been most helpful.	Chicquito's is located at 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, Phone 01223 400170, and the restaurant below that is called frankie and bennys. It has a phone number of 01223 412430 and address of Cambridge Leisure Park Clifton Way Cherry Hinton	south	none	expensive
+601	0	I'm looking for a cheap restaurant in the west.		west	none	cheap
+601	1	Pardon?  Is that the name of a restaurant?	name is tnahh binh	west	none	cheap
+601	2	What is the address and phone number?	Yes, there is a Vietnamese restaurant in the west called Thanh Binh.	west	none	cheap
+601	3	Thank you goodbye. 	The address for the vietnamese restaurant Thanh Binh is 17 Magdalene Street City Centre and their phone number is 01223 362456.	west	none	cheap
+602	0	Looking for the address and phone of a spanish in the centre of town.		centre	spanish	none
+602	1	Is there anything else other than those two?	I have an inexpensive la Razam 01223 464550 at 4 - 6 Rose Crescent, and moderately priced la Tasca 01223 464630 at 14 -16 Bridge Street.	centre	spanish	none
+602	2	What is in the south?	Not in the centre.  Would you be willing to travel to another area?	south	spanish	none
+602	3	No, thank you, goodbye	Unfortunately, there are no Spanish restaurants in the south. Would you like me to check if there are any in the North or West parts of town? 	south	spanish	none
+602	4	Goodbye.	Thank you! Goodbye!	south	spanish	none
+603	0	I'd like a restaurant with Korean food please. 		none	korean	none
+603	1	What is their address and phone number?	Little Seoul is a Korean restaurant in the city centre, serving expensive food.	none	korean	none
+603	2	Thank you, goodbye	Little Seoul is located at 108 Regent Street City Centre and their telephone number is 01223 308681.	none	korean	none
+604	0	Hi there, I'm looking for a Turkish place		none	turkish	none
+604	1	Is there anything else? If so, what is their address?	How about Meze bar restaurant?	none	turkish	none
+604	2	That's all the information that I needed. Thanks! 	Anatolia, the address is 30 Bridge Street City Centre. Can I help you with anything else?	none	turkish	none
+605	0	hello, i'm looking for a singaporean restaurant		none	singaporean	none
+605	1	Yeah man, how bout some asian oriental? 	Unfortunately, I'm not seeing any results for Singaporean food. Can I help you find something similar? 	none	asian oriental	none
+605	2	No.	Any specific price range?	none	asian oriental	dontcare
+605	3	Address and phone number?	Dojo noodle bar is a good choice.	none	asian oriental	dontcare
+605	4	Thank you - have a nice day.	The phone number to Dojo Noodle Bar is 01223 363471. The address is 40210 Millers Yard, City Centre.	none	asian oriental	dontcare
+606	0	I'm looking for hungarian food in the Centre		centre	hungarian	none
+606	1	How about turkish food?	I'm sorry, there are no Hungarian restaurants listed in the centre part of town.  Would you like to try something else? 	centre	turkish	none
+606	2	No preference about price range.	There are three restaurants that serve Turkish food in the center of town. What price range would you like?	centre	turkish	dontcare
+606	3	What is Anatolia's address?	How about Anatolia? It serves Turkish food and it is in the centre of town.	centre	turkish	dontcare
+606	4	What's the price range?	Anatolia is located at 30 bridge street city centre. Is there anything else I can help you with? 	centre	turkish	dontcare
+606	5	Thank you goodbye.	Anatolia is in the moderate price range.	centre	turkish	dontcare
+607	0	Hi, I'm looking for good Chinese food on the west side. 		west	chinese	none
+607	1	Thank you goodbye	sorry, there is no chinese restaurant in the west side. do you want another type of food or different part of town? 	west	chinese	none
+608	0	Where would you go to eat in the south part of town?		south	none	none
+608	1	I just want to eat at a cheap restaurant in the south part of town. What food types are available, can you also provide some phone numbers?	ok I can help you with that.  Are you looking for a particular type of food, or within a specific price range?	south	none	cheap
+608	2	Either is fine, can I have the phone number please?	I found two restaurants serving cheap food. Would you prefer Portuguese or Chinese food?	south	none	cheap
+608	3	Thank you very much.	The lucky start is at 01223 244277 and Nandos is at 01223 327908.	south	none	cheap
+608	4	No, you've been very helpful, Thank you.	Is there anything else I can help you with?	south	none	cheap
+609	0	I would like a restaurant in the south part of town that serves greek food		south	greek	none
+609	1	How about Chinese food?	I am sorry there no restaurants matching what you want. Is there anything else?	south	chinese	none
+609	2	Cheap, I think.	Would you like something in the expensive or cheap price range? 	south	chinese	cheap
+609	3	What is the address? 	the lucky star serves chinese food, is located in the south part of town and is in the cheap price range.  Would you like more information for them? 	south	chinese	cheap
+609	4	Thank you goodbye.	Cambridge Leisure Park Clifton Way Cherry Hinton	south	chinese	cheap
+609	5	Goodbye.	You're welcome. Goodbye.	south	chinese	cheap
+610	0	I want to find an expensive restaurant in the south part of town. What is the address and phone number?		south	none	expensive
+610	1	Any kind.  I don't care. also give me the phone number and address .	I show several expensive restaurants on the south side of town. What kind of food would you like?	south	dontcare	expensive
+610	2	Thank you, goodbye.	Frankie and bennys is located in the south part of town and in the expensive price range. Their address is Cambridge Leisure Park Clifton Way Cherry Hinton and their phone number is 01223 412430.	south	dontcare	expensive
+611	0	I want to find a restaurant in the south part of town that serves european food.		south	european	none
+611	1	What is the phone number?	There is the restaurant alimentum... it serves modern european food.	south	modern european	none
+611	2	That's it.  Thank you!	Restaurant Alimentum's phone number is 01223-413000. Can I help you find anything else? 	south	modern european	none
+612	0	Hello, I would like to find a restaurant with a moderate price range.		none	none	moderate
+612	1	Wait, you never gave me the information. Find me a Chinese restaurant within 5 miles.	thank u,g goodbye	none	chinese	moderate
+612	2	Are there any moderately priced Chinese restaurants on the east side?	There are three Chinese restaurants in the city centre and one in the north.  Which would you like more information on?	east	chinese	moderate
+613	0	Hi I'm looking for a cheap steakhouse.		none	steakhouse	cheap
+613	1	I do not want spanish food. Could you try looking for asian oriental food? 	I'm sorry, I cannot find a steakhouse in your area. May I suggest spanish? It is within your price range and they do have tasty meat.	none	asian oriental	cheap
+613	2	That works, cam i get the address and phone number?	How about dojo noodle bar?	none	asian oriental	cheap
+613	3	Awesome, thank you! 	The phone number is 01223 363471 and the address is 40210 Millers Yard City Centre	none	asian oriental	cheap
+614	0	Hello, I am looking for a restaurant in the centre of town that serves Indonesian food.		centre	indonesian	none
+614	1	Oh, well how about European food then? Also in the centre of town please.	My apologies, but there doesn't seem to be any restaurants matching your request. Would you like to broaden your search?	centre	european	none
+614	2	I don't care. 	There are 8 listings meeting your criteria. Do you have a preference on the price range?	centre	european	dontcare
+614	3	May I have the phone number and postcode?	Darrys cookhouse and Wine Shop is in the centre of town and serves modern european food.	centre	european	dontcare
+614	4	No, that's all I need, thank you very much.	The phone number for darrys Cookhouse and Wine Shop is 01223 505015 and the postcode is C.B 1, 1 L.N. Can I help you with anything else?	centre	european	dontcare
+614	5	Thank you goodbye.	You're welcome. Thank you for using this system.	centre	european	dontcare
+615	0	I want to find a restaurant in the north part of town and serves international food.		north	international	none
+615	1	Are there any Italian restaurants in that part of town?	I'm sorry, there are no international restaurants listed in that area.  Would you like to try something else? 	north	italian	none
+615	2	Yes, the address and phone number please.	Yes. da vinci pizzeria restaurant in the north part of town and in the cheap price range.  Would you like more information for them? 	north	italian	none
+615	3	thank you . good bye	Here is the information you have requested. phone number is 01223 351707, and address is 20 Milton Road Chesterton. Will that be all?	north	italian	none
+616	0	Looking for a restaurant anywhere that serves afghan food.		dontcare	afghan	none
+616	1	Can you look up Korean listings for me?	There are no afghan restaurants	dontcare	korean	none
+616	2	OK thanks!	I have one listing for Little Seoul in the expensive price range, at 108 Regent Street City Centre,   01223 308681.	dontcare	korean	none
+617	0	I want to try a different barbeque place - can you help me?		none	barbeque	none
+617	1	Okay, what about Vietnamese food in the west part of town? Can I get a phone number? 	I'm sorry, there aren't any barbeque places here.	west	vietnamese	none
+617	2	no.  nothing at all.	Thanh binh is in the west part of town.  The phone number is 01223 362456.  Is there anything else I can help you with?	west	vietnamese	none
+618	0	I need the address and phone of reasonably priced restaurant on the south side.		south	none	moderate
+618	1	Is that all?	There are two, one Italian and one modern European, do you have a preference for cuisine? 	south	none	moderate
+618	2	I like Italian	yes, that is all	south	italian	moderate
+618	3	Yes please.	There is a moderately priced italian place called Pizza hut at cherry hilton. would you like the address and phone number?	south	italian	moderate
+618	4	Thanks, is there anything else?	No problem, Their phone number is 01223 323737 G4 and they are located at Cambridge Leisure Park Clifton Way Cherry Hinton. Can I assist you with anything else?	south	italian	moderate
+618	5	Thank you.	No, that's all.	south	italian	moderate
+619	0	Hi I am looking for a restaurant in the North part of town, not too expensive but not too cheap either.		north	none	moderate
+619	1	Is there any moderately priced restaurants in the north part of town?	I'm sorry there's no restaurant in that area matching your specifications.	north	none	moderate
+619	2	Nothing moderately priced in the north at all?  Well, what do they have?	I'm sorry, there are no listings.  Would you like to search for something else?	north	none	moderate
+619	3	Cheap	Nothing with moderate prices. Would you like a restaurant with cheap or expensive prices?	north	none	cheap
+619	4	Anything else? What is the phone number and address?	I would recommend either DaVinci Pizza serving Italian, or Royal spice serving Indian.	north	none	cheap
+619	5	Oh good, please let me have the address and phone number for the Indian one.	There must be a malevolent entity messing with our system today. I have now just found two moderately priced restaurants in the north, one Indian and one Chinese. 	north	indian	cheap
+619	6	No thanks, goodbye.	The address is 7 Milton Road Chesterton, and the phone number is 01223 360966.  Is there anything else I can do for you?	north	indian	cheap
+620	0	I would like Polynesian food in the South part of town. Please send me phone number and address. 		south	polynesian	none
+620	1	how about Portuguese? 	Unfortunately, there are no Polynesian restaurants south of town. Is there another type of food you would like or area of town that would work?	south	portuguese	none
+620	2	thank you good bye	nandos at Cambridge Leisure Park Clifton Way is the only restaurant that meats your criteria. The phone number is 01223 327908.	south	portuguese	none
+620	3	I'm sorry, I forgot to ask for the address.	your are welcome, good bye.	south	portuguese	none
+620	4	Thank you! Have a good day!	It's address is still Cambridge Leisure Park Clifton Way.  Thank you, come again.	south	portuguese	none
+621	0	I want to have some afghan food.		none	afghan	none
+621	1	Is there any Chinese restaurants in the area?	Sorry, no matches found	none	chinese	none
+621	2	Moderate price range	There are many Chinese restaurants. What price range are you looking for?	none	chinese	moderate
+621	3	I don't care	Would you  like something in the north or centre of town? 	dontcare	chinese	moderate
+621	4	Please give me their number, too.	Jinling Noodle Bar is a nice place that fits your requirement	dontcare	chinese	moderate
+621	5	what type of food do they serve ?	Jinling Noodle Bar's number is 01223 566188.  Would you like the address?	dontcare	chinese	moderate
+621	6	No thank you, goodbye. 	Jinling Noodle Bar is a nice chinese restaurant .	dontcare	chinese	moderate
+622	0	I'm looking for decent BBQ - what do you know about BBQ?		none	barbeque	none
+622	1	Ok, what about Italian?	Sorry, we don't have any matching restaurants.	none	italian	none
+622	2	No price range, but I would prefer to go somewhere in the west part of town.  What do you have there?	We have many Italian restaurants. Do you have a price range in mind?	west	italian	dontcare
+622	3	I am sorry, can i get recommendations on thai restaurants in the same area?	La margherita is cheap or there is prezzo which is moderately priced.	west	thai	dontcare
+622	4	Thank you so much!	There is Sala Thong. The address is 35 Newnham Road Newnham. The can be reached by phone at 01223 323178.	west	thai	dontcare
+622	5	No, you've been very helpful!	You're welcome. Is there anything else I can assist you with today?	west	thai	dontcare
+623	0	I want to find a cheap restaurant in the north part of town. What is the address and food?		north	none	cheap
+623	1	Thank You	da vinci pizzeria serves Italian food and is located at 20 Milton Road Chesterton or royal spice serves Indian food and is on Victoria Avenue Chesterton	north	none	cheap
+624	0	Where can I find a polynesian restaurant?		none	polynesian	none
+624	1	I am not sure. That is why I am asking you. If there are no Polynesian restaurants, I would be interested in a Thai restaurant.	are you sure there are no polynesian restaurants?	none	thai	none
+624	2	Whichever one you recommend.	RIght, there are no Polynesian, unfortunately, but I am showing two Thai, one in centre and one west.	dontcare	thai	none
+624	3	What is the price range?	Would you like a Thai restaurant called Bangkok City in centre?  The address is 24 Green Street City and phone 01223 354382.  	dontcare	thai	none
+624	4	Are there any cheap restaurants in that area?	Bankok City is an expensive restaurant.	dontcare	thai	cheap
+624	5	That's fine. Thanks for your help. Bangkok City, here I come!	Nothing cheap, both Thai restaurants describe themselves as expensive.	dontcare	thai	cheap
+625	0	Where can I find portuguese food?		none	portuguese	none
+625	1	Any area. 	I found two portuguese restaurants.  Would you prefer the south or centre part of town? 	dontcare	portuguese	none
+625	2	What is the address?	Nandos is a Portuguese restaurant in the south part of town.	dontcare	portuguese	none
+625	3	No, thank you.	Nandos is located at Cambridge Leisure Park Clifton Way. Is there anything else I can help you with today?	dontcare	portuguese	none
+626	0	I want a cheap restaurant in the west part of town. I need its address and phone number please 		west	none	cheap
+626	1	Thank you goodbye.	La Margherita serves cheap italian in the west area.  It is located at 15 Magdalene Street City Centre, phone 01223 315232	west	none	cheap
+627	0	I'm looking for a moderately priced restaurant in the north part of town		north	none	moderate
+627	1	I don't care. 	There are two restaurants; chinese and indian that are moderately priced. Do you have any preferences?	north	dontcare	moderate
+627	2	That will be good. Could you give me their address?	Okay, how about the Golden Wok? They serve Chinese food in the north part of town and are moderately priced.	north	dontcare	moderate
+627	3	and also postcode please?	golden wok is located at 191 histon road chesterton and its phone number is 01223350688. Is there anything else I can help you with? 	north	dontcare	moderate
+627	4	No. that's all I want. thank you 	Their postcode is C.B 2, 1 U.J.	north	dontcare	moderate
+628	0	I am looking for an expensive restaurant that serves Indonesian food.		none	indonesian	expensive
+628	1	can i have a thai food instead? 	I'm sorry, there are no expensive restaurants that serve indonesian food. Can I help you with something else?	none	thai	expensive
+628	2	address and phone number, please	bangkok city is thai restaurant in the expensive price range located in the centre city. 	none	thai	expensive
+628	3	Sorry what type of food do they serve? 	Sure, bangkok city is located at 24 green street city centre and its phone number is 01223 354382. Is there anything else I can help you with? 	none	thai	expensive
+628	4	No, thank you! I've got all the info I needed. Goodbye.	They serve thai food. 	none	thai	expensive
+629	0	Could I get the name of a moderately priced restaurant on the north side of town?		north	none	moderate
+629	1	Could you get me the address and phone number for The Golden Wok, please?	The Golden Wok is a Chinese restaurant in the north part of town. Or there's The Nirala, which serves Indian food.	north	none	moderate
+629	2	No, that's it. Thank you for your help.	The address is 191 Histon Road Chesterton, and the phone number is 01223 350688. Can I help you with anything else?	north	none	moderate
+630	0	I want a cheap restaurant on the west side.		west	none	cheap
+630	1	I think Italian would be nice.	Sure thing... Italian or vietnamese?	west	italian	cheap
+630	2	Yes, and postal code please.	La Margherita is cheap and located on the west side.  Would you like the address and phone number?	west	italian	cheap
+630	3	Thank you.	01223 315232 15 Magdalene Street City Centre C.B 3, 0 A.F	west	italian	cheap
+631	0	Do you have any cheap reataurants in the north part of town?		north	none	cheap
+631	1	Can I have the address for both?	I have found two choices. Would you prefer Italian or Indian cuisine?	north	none	cheap
+631	2	Thank you.	The address for da vinci pizzeria is 20 Milton Road Chesterton and the address for royal spice is Victoria Avenue Chesterton.	north	none	cheap
+632	0	Help me choose a restaurant on the north side.		north	none	none
+632	1	Ahh, anything really, I'd like a surprise, what's an address and phone number of any restaurant on that list? 	There is a wide variety of restaurants on the North side of town, serving Italian, Chinese, and Indian food to name a few. What kind of food are you in the mood for? 	north	dontcare	none
+632	2	Thank you! 	da vinci pizzeria. 20 milton road chesterton 01223351707	north	dontcare	none
+633	0	Hi I'm looking forward some moderately priced british food		none	british	moderate
+633	1	I'll try Cotto. I'll need the address and postcode.	How about Cotto or Restaurant One Seven? They are both in the centre of town. 	none	british	moderate
+633	2	Can you give me the post code for Cotto please?	Cotto is located at 183 East Road City Centre and its phone is 01223 302010	none	british	moderate
+633	3	Thank you and Goodbye.	The postcode is C.B 1, 1 B.G	none	british	moderate
+634	0	I want British food that is moderately priced.		none	british	moderate
+634	1	How about the West part of town.	There are several restaurants serving british food.  Would you prefer the centre or west part of town? 	west	british	moderate
+634	2	Thank you goodbye. 	Saint Johns Chop House matches your request.  It is located at 21-24 Northampton Street c.b 3, 0 A.D, the phone number is 01223 353110. 	west	british	moderate
+635	0	I would like Italian restaurants in the area		none	italian	none
+635	1	Sorry, I'd prefer caribbean food and if that's not an option maybe mediterranean. No certain area.	Which area would that be? We have Italian restaurants all over the city for you to choose from.	dontcare	caribbean	none
+635	2	I don't have a price range. May I have a list of those restaurants along with their addresses, phone numbers and postcodes?	We have three Mediterranean restaurants in the area.  What is your price range?	dontcare	mediterranean	dontcare
+635	3	thank you, goodbye	I have la mimosa phone number 01223 362525 address Thompsons Lane Fen Ditton,C.B 5, 8 A.Q. I also have shiraz restaurant phone 01223 307581 located at 84 Regent Street City Centre,C.B 2, 1 D.P. I also have the gardenia phone 01223 356354 located at 2 Rose Crescent City Centre,C.B 2, 3 L.L. 	dontcare	mediterranean	dontcare
+636	0	I would like a restaurant in the east part of town that serves gastropub food		east	gastropub	none
+636	1	Thank you goodbye. 	That would be the Royal Standard at 280 Mill Road City Centre. They can be reached at 01223247877.	east	gastropub	none
+637	0	hello, i'm looking for a nice turkish restaurant		none	turkish	none
+637	1	It doesn't matter.	In what area would you like?	dontcare	turkish	none
+637	2	can I have the address of the anatolia?	I have three results available. The Anatolia, efes restaurant, and meze bar restaurant.	dontcare	turkish	none
+638	0	Hi, I want a moderately priced restaurant located in the south part of town.		south	none	moderate
+638	1	address and postcode please	Pizza hut cherry hinton is in the south part of town and in the moderate price range.  Would you like their location? 	south	none	moderate
+638	2	No, thank you, goodbye.	Their address is G4 Cambridge Leisure Park Clifton Way Cherry Hinton and their postcode is C.B 1, 7 D.Y. Is there anything else I can do for you today?	south	none	moderate
+639	0	is there a moderate priced restaurant?		none	none	moderate
+639	1	Yes, in the east part of town.	I found several.  Do you have a preference on location?  	east	none	moderate
+639	2	What is the address of one of them?	There are three results with your preferences of east area and moderate price range.	east	none	moderate
+639	3	Excellent, thanks!	451 Newmarket Road Fen Ditton	east	none	moderate
+639	4	That's it, goodbye	Is there anything else I can help you with? 	east	none	moderate
+640	0	I'm looking for a restaurant in the south part of town that is moderately priced		south	none	moderate
+640	1	OK, thanks. What type of food is it and can I have the phone number?	I found pizza hut cherry hinton and restaurant alimentum. 	south	none	moderate
+640	2	Yes, what does alimentum serve?	Pizza Hut Cherry Hinton serves Italian food in the Moderate price range. Would you like further information?	south	none	moderate
+640	3	Whats the phone number for alimentum?	Modern European	south	none	moderate
+640	4	Perfect! Thank you 	the phone number is 01223 413000	south	none	moderate
+641	0	I am looking for a cheap restaurant in the North part of town. I will need their address.		north	none	cheap
+641	1	Thank you goodbye. 	There is a cheap Italian restaurant at 20 Milton Road Chesterton, or one that serves Indian food at Victoria Avenue Chesterton.	north	none	cheap
+642	0	Hi can I have the phone number for a cheap restaurant in the north part of town		north	none	cheap
+642	1	What is available?	there are two. what were you looking to eat tonight?	north	none	cheap
+642	2	Surprise me.  	I am showing two cheap restaurants in the north part of town. One serves Italian food and the other serves Indian food.	north	dontcare	cheap
+642	3	Yes I would.	Well Da Vinci Pizzeria is and Italian Restaurant and their phone number is 01223 351707. Would you like their address?	north	dontcare	cheap
+642	4	Thank you.	DaVinci is located at 20 Milton Road, Chesterton	north	dontcare	cheap
+642	5	Have a nice day.	You're welcome	north	dontcare	cheap
+642	6	Yes, thank you.	Thank you, will that be all for you?	north	dontcare	cheap
+643	0	I am looking for an international restaurant in the east part of town.		east	international	none
+643	1	Yes, please. What is its phone number and price range?	I have found one called The Missing Sock. Would you like the information for it?	east	international	none
+643	2	Thank you good bye. 	The phone number is 01223 812660 and it is a cheap restaurant. 	east	international	none
+644	0	What is that european food place's address?		none	european	none
+644	1	No, any part of town is fine.	I found several places serving European food.  Do you have a preference as to the location? 	dontcare	european	none
+644	2	Thank you, goodbye.	Cambridge Lodge Restaurant serves European food and is located at Cambridge Lodge Hotel 139 Huntingdon Road City Centre.	dontcare	european	none
+645	0	Hello, I am looking for a restaurant that serves international food. 		none	international	none
+645	1	No, any price range is fine. Can you recommend one of the restaurants?	I'm showing three restaurants that fit that description. Are you interested in a particular area or price range?	none	international	dontcare
+645	2	Hmm, I don't really like the food there. Is there anything else?	bloomsbury restaurant is an international restaurant in the centre area.	none	international	dontcare
+645	3	Can I get the address and phone number, please?	the missing sock is another restaurant there.  	none	international	dontcare
+645	4	Thank you.	the missing sock is located at Finders Corner Newmarket Road and their phone number is 01223 812660. 	none	international	dontcare
+645	5	Thank You	Thank you.	none	international	dontcare
+646	0	Don't care about price, just looking for thai food.		none	thai	dontcare
+646	1	What is the address and phone number?	there is Bangkok city which serves Thai food. Is there anything else I can help you with?	none	thai	dontcare
+646	2	Thank you, goodbye.	The phone number for Bangkok city is 01223 354382 and the address is 24 Green Street City Centre. 	none	thai	dontcare
+647	0	Hi.  I'm trying to find a good restaurant in the south part of town.		south	none	none
+647	1	Yes, I'd like a restaurant that serves portuguese food. 	There are several good restaurants in the south part of town. Do you have a preference for the type of food or price range? 	south	portuguese	none
+647	2	Nandos sounds great. Thank you.	nandos is the only restaurant i can find in the south that serves portuguese. 	south	portuguese	none
+647	3	Goodbye.	thank you good bye 	south	portuguese	none
+648	0	I am looking for a danish restaurant		none	danish	none
+648	1	How about north american food?	There are no danish restaurants listed.  May I direct you toward another restaurant? 	none	north american	none
+648	2	What is their phone number and postcode?	There is one listing for North American food, Gourmet Burger Kitchen in Centre part of town.	none	north american	none
+648	3	Is there anything else?	Postcode: C.B 2, 1 A.B, phone number is 01223 312598	none	north american	none
+648	4	could you give me the phone number and postcode ?	That is the only restaurant serving North American food.	none	north american	none
+648	5	thank you good bye .	the phone number is 01223 312598 and postcode is C.B 2, 1 A.B	none	north american	none
+649	0	I want to find a restaurant in the centre part of town and serves barbeque food. If not then how about modern european food?		centre	barbeque	none
+649	1	I want the most expensive one available.	There are four venues serving modern European food in the Centre of town. What price range do you want?	centre	modern european	expensive
+649	2	What is the address?	darrys Cookhouse and Wine Shop is the most expensive modern European restaurant.	centre	modern european	expensive
+650	0	I am looking for a moderately priced restaurant on the north side of town.		north	none	moderate
+650	1	is there anything else?	There is Golden Wok which serves Chinese, or The Nirala which is Indian. Would you like further information on one of these restaurants?	north	none	moderate
+650	2	No, I want a moderately priced restaurant on the north side of town. 	There's nothing else in that price range.  Would you be willing to spend a bit more?	north	none	moderate
+650	3	thank you, goodbye	I see no others in the moderate price range. The Royal Spice restaurant serves Indian cuisine and is cheaply priced. Would that work for you?	north	none	moderate
+651	0	I want a restaurant with corsica food please.		none	corsica	none
+651	1	West side of town.	What is the area you would like?	west	corsica	none
+651	2	How about Italian food instead and could I have the phone number if you find a restaurant	There are no matching restaurants. Would you like me to perform another search?	west	italian	none
+651	3	Thank you, goodbye.	Prezzo is a moderately priced Italian restaurant in the west side of town. The phone number is 01799 521260.	west	italian	none
+652	0	I'd like a Kosher restaurant that's in the moderate price range.		none	kosher	moderate
+652	1	How about asian oriental food?	I'm sorry, there is not a kosher restaurant in the moderate price range.  Would you like to try something else? 	none	asian oriental	moderate
+652	2	What is the address and phone number?	Yippee Noodle Bar is a moderately priced restaurant serving asian oriental food.	none	asian oriental	moderate
+652	3	thank you, goodbye	Yippee Noodle Bar's phone number is 01223 518111. Their address is 40428 King Street City Centre	none	asian oriental	moderate
+653	0	I want a moderately priced jamaican place.  If not, I want asian oriental.  What's the address and phone number?		none	jamaican	moderate
+653	1	ok, thanks! bye	I was unable to find a jamaican restaurant. There is an asian oriental restaurant. Address is 40210 Millers Yard City Centre, Phone 01223 363471	none	jamaican	moderate
+654	0	I would like an expensive restaurant in the south part of town		south	none	expensive
+654	1	Any type of food is fine	There are five expensive restaurants in that area. Do you have a preference for price range or type of food?	south	dontcare	expensive
+654	2	Is there anything else?	There is an expensive Mexican restaurant in the south area of town called chiquito restaurant bar. Is that fine?	south	dontcare	expensive
+654	3	I need the address.	frankie and bennys serves italian food and is located in the south part of town.  Would you like more information for them? 	south	dontcare	expensive
+654	4	Thank you goodbye.	Their address is Cambridge Leisure Park Clifton Way Cherry Hinton.  Can I help you with anything else? 	south	dontcare	expensive
+654	5	Good bye 	Thank you for choosing our system. Good bye 	south	dontcare	expensive
+655	0	I am looking for a moderately priced restaurant in the north part of town.		north	none	moderate
+655	1	Can I get the address and phone number?	There is the Golden Wok for Chinese food and the Nirala for Indian food.	north	none	moderate
+655	2	For both please	For which location would you like that address and phone number?	north	none	moderate
+655	3	Thank you and goodbye. 	golden wok is located at 191 histon road chesterton and its phone number is 01223 350688. The nirala is located at 7 milton road chesterton and its phone number is 01223360966. Is there anything else I can help you with?  	north	none	moderate
+656	0	I would like a restaurant in any area that serves scandinavian food		dontcare	scandinavian	none
+656	1	How about french?	There are no restaurants available that serve scandinavian food. Are there any other restaurants you would like to try?	dontcare	french	none
+656	2	If you could give me the phone number, that would be great.	Restaurant Two Two serves French food. Would you like the location information?	dontcare	french	none
+656	3	No, thank you, that does it.  Thank you and goodbye!	The phone number for restaurant two two is 01223 351880. Can I help you with anything else? 	dontcare	french	none
+657	0	How much does sushi go for around here?		none	japanese	none
+657	1	Can I have the address and price range?	Try wagamama on the centre side of town.	none	japanese	none
+657	2	Is there another option>	It's on the expensive side and the address is 36 Saint Andrews Street.	none	japanese	none
+657	3	No, that will be fine. Thanks for your help! 	We lack a sushi search category, and wagamama is the only Japanese restaurant we have listed.  May I search an Asian or other type of restaurant for you?	none	japanese	none
+658	0	I need a cheap restaurant. Probably in the west part of town		west	none	cheap
+658	1	What kind of food do they serve?	How about La Margherita?	west	none	cheap
+658	2	That sounds good. What is their phone number?	la margherita is an italian restaurant in the area of west in the cheap price range. 	west	none	cheap
+658	3	that was all I needed.  Bye now.	Their phone number is 01223 315232.	west	none	cheap
+659	0	hello, i'm looking for a nice place to eat in the west part of town		west	none	none
+659	1	How about English food?	We have many nice restaurants on the west side of town. Is there a specific type of food that you are interested in?	west	english	none
+659	2	Any range please.	What price range are you looking for?	west	english	dontcare
+659	3	Sounds great!  Thank you!	There's saint johns chop house. They're located at 21 - 24 Northampton Street, and their phone is 01223 353110.	west	english	dontcare
+660	0	Hello, I am looking for a inexpensive restaurant in the east part of town. Can I please have the address and phone number?  		east	none	cheap
+660	1	Could you please have the exact address?	I have found The Missing Sock that serves cheap international food. It is at Finders Corner on Newmarket road and the phone number is 01223 812660	east	none	cheap
+660	2	I could use the postcode, I guess.	The address is Finders Corner Newmarket Road.  Anything else?	east	none	cheap
+660	3	Yes, thank you!	The postcode is C.B 25, 9 A.Q. Will that be all?	east	none	cheap
+661	0	hello, i'm looking for a fancy restaurant		none	none	expensive
+661	1	I'm in the east part of town	backstreet bistro is a gastropub and is located in the centre. It is in the expensive range. 	east	none	expensive
+661	2	Great. Can you give me the address of this location?	royal standard is a gastropub in the east	east	none	expensive
+661	3	Thank you, goodbye	Royal Standard is located at 290 Mill Road City Centre. Can i help you with anything else? 	east	none	expensive
+662	0	I would like a cheap restaurant which serves italian food		none	italian	cheap
+662	1	What is their address and what part of town are they in?	Da vinci pizzeria serves cheap italian food. Would you like their address or phone number?	none	italian	cheap
+662	2	Sorry what type of food do they serve? 	Da Vinci Pizzeria is in the north part of town. The address is 20 Milton Road Chesterton.	none	italian	cheap
+662	3	Thank you. Goodbye.	They serve italian food. 	none	italian	cheap
+662	4	thank you, goodbye!	Good bye. Please call again if you have further questions.	none	italian	cheap
+663	0	I am looking for Italian food in the north part of town.		north	italian	none
+663	1	May I have the address and phone number of da vinci pizzeria?	da vinci pizzeria is an italian restaurant located in the north part of town	north	italian	none
+663	2	Thank you. Goodbye.	da vinci pizzeria is located at 20 Milton Road Chesterton. Their phone number is 01223 351707. Is there anything else I can help you with?	north	italian	none
+664	0	hello, i'm looking for a nice fancy place to eat		none	none	expensive
+664	1	We have plenty of those... any particular cuisine?	We have plenty of those... any particular cuisine?	none	none	expensive
+664	2	Yes, how many are in the south part of town?	We have many restaurants to choose from throughout the city, with the centre city having the most.  Are you looking for a specific cuisine or area of the city?	south	none	expensive
+664	3	Definitely Mexican!	I found five expensive restaurants in the south part of town. Are you interested in Chinese, Mexican, Italian, or Indian food?	south	mexican	expensive
+664	4	Great, sounds good. What's the postcode?	chiquito restaurant bar seems to be the best option they are located at 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton.	south	mexican	expensive
+664	5	Yea, and the phone number too please	The post code is C.B 1, 7 D.Y and would you like their address?	south	mexican	expensive
+664	6	Nope, I'm all set. Thanks for your help. Bye now.	The address is: 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton & the phone number is 01223 400170. Can i help with anything else?	south	mexican	expensive
+665	0	I want to eat someplace really expensive!		none	none	expensive
+665	1	Yes, it should be in the south part of town and I need the phone number.	do you have a food style preference? There are quite a few expensive options!	south	none	expensive
+665	2	Will do. Thanks.	Why don't you try Taj Tandoori.  The number is 01223 354755	south	none	expensive
+666	0	I am looking for a cheap restaurant that serves Cuban food. 		none	cuban	cheap
+666	1	Could you look for Chinese restaurants instead?	I am sorry there are no Cuban restaurants in the cheap price range. Is there anywhere else you will like to search for?	none	chinese	cheap
+666	2	Can I get the address and phone number of Charlie Chan, please?	There are 3 in the centre and one in the south. Charlie Chan is one of the cheap Chinese restaurants in the centre.	none	chinese	cheap
+666	3	Thank you, that is all I need.  Goodbye!	Charlie Chan's phone number is 01223 361763 and the address is Regent Street City Centre. May I help you with anything else?	none	chinese	cheap
+667	0	hello, i'm looking for a cheap place to eat		none	none	cheap
+667	1	Yes east side.	Do you have an area or food type in mind?	east	none	cheap
+667	2	What is the name?	I have found one result that matches your search criteria, would you like the name, location and or phone number 	east	none	cheap
+667	3	address, phone number, and postcode, please.	The restuarnt name is The Missing Sock.	east	none	cheap
+667	4	Perfect. Thank you.	01223 812660 Finders Corner Newmarket Road C.B 25, 9 A.Q.  Is there anything else I can help you with today?	east	none	cheap
+668	0	I'd like to find a restaurant serving Christmas food.		none	christmas	none
+668	1	How about indian food?	I'm sorry, there is no restaurant listed serving Christmas food.  Would you like to try something else? 	none	indian	none
+668	2	What's the address for cocum?	cocum serves indian food, in the expensive price range and in the west part of town	none	indian	none
+668	3	No, thank you. Goodbye.	Cocum's address is 71 Castle Street City Centre. Is there anything else I can help you with today?	none	indian	none
+669	0	I want a restaurant in the south part of town and serves panasian food.		south	panasian	none
+669	1	italian food please. phone number and postcode please.	Sorry, there are no restaurants in the south part of town serving panasian food.	south	italian	none
+669	2	Sorry what type of food do they serve? 	Frankie and Bennys serves Italian food in the south part of town. The phone number is 01223 412430, and the postcode is C.B 1, 7 D.Y.	south	italian	none
+669	3	what is the price range ?	They serve italian food. 	south	italian	none
+669	4	Thank you for your help. Good bye.	They are quite expensive .	south	italian	none
+670	0	I need the address, phone number and postcode for a moderately priced restaurant serving international food.		none	international	moderate
+670	1	Thank you goodbye.	How about the varsity restaurant, they are located at 35 Saint Andrews Street City Centre, postcode C.B 2, 3 A.R, phone number is 01223 356060.	none	international	moderate
+671	0	I want a cheap restaurant in the east part of town. What is the address and postcode?		east	none	cheap
+671	1	Thank you, goodbye.	How about The Missing Sock?  They serve international food at Finders Corner Newmarket Road, postal code C.B 25, 9 A.Q .	east	none	cheap
+672	0	Please give me information on restaurants south of me.		south	none	none
+672	1	Are they expensive?	There are a lot of chinese and italian restaurants.	south	none	none
+672	2	Wait, you didn't answer my question.  Which of the restaurants are expensive?	thank you, goodbye	south	none	expensive
+672	3	Can I get the number for the Chinese restaurant?	My apologies.  There are five (5) restaurants that are expensive in the south area.  Are you interested in Mexican, Italian, Chinese, or Indian?	south	chinese	expensive
+672	4	No that's it thank you.	01223 354755  Is there anything else I can help you with?	south	chinese	expensive
+673	0	I'm looking for malaysian food.		none	malaysian	none
+673	1	How about asian oriental type of food?	sorry i cannot find any malaysian restaurants. can i offer you something else?	none	asian oriental	none
+673	2	No particular area, but I'm looking for an expensive restaurant.	There are five search results.  Are you interested in a particular area or price range?	dontcare	asian oriental	expensive
+673	3	Is there anything else?	there is saigon city at 169 High Street Chesterton Chesterton, phone 01223 356555.	dontcare	asian oriental	expensive
+673	4	Thank you, goodbye	There is also Kymmoy in the centre of town, at 52 Mill Road City Centre. Their phone number is 01223 311911.	dontcare	asian oriental	expensive
+674	0	hello, i'm looking for a restaurant that serves eritrean food		none	eritrean	none
+674	1	how about asian oriental?	Sorry we don't have anything in the area.  Is there anything else I can help you find?	none	asian oriental	none
+674	2	Great! May I have the phone number and address to that venue? 	dojo noodle bar is a cheap restaurant.	none	asian oriental	none
+674	3	Thank you.  Good-bye.	The phone number is 01223 363471 and the address is 40210 Millers Yard City Centre,C.B 2, 1 R.Q.	none	asian oriental	none
+675	0	I am looking for a moderately priced restaurant in the south part of town. 		south	none	moderate
+675	1	May I have the address and phone number of the Italian restaurant?	There are two moderately priced restaurants in the south. Would you prefer Italian or Modern European? 	south	italian	moderate
+675	2	Thank you goodbye. 	That would be the Pizza Hut Cherry Hinton at G4 Cambridge Leisure Park Clifton Way Cherry Hinton, and they can be reached at 01223 323737. Can I help you with anything else today? 	south	italian	moderate
+676	0	I am looking for a moderately priced restaurant in the west part of town. 		west	none	moderate
+676	1	yes, and the address and postcode please. 	Meghna is an Indian restaurant, it is in the moderate price range, and it is in the west part of town. Would you like the phone number?	west	none	moderate
+676	2	Perfect. Thanks for the information. Goodbye.	The phone number for meghna is 01223 727410 and they are located at 205 Victoria Road Chesterton.  The postcode is C.B 4, 3 L.F.	west	none	moderate
+677	0	Hi, I'm looking for a moderately priced restaurant in the west.		west	none	moderate
+677	1	Can I have the phone number for the italian restaurant?	I have three results for you, an Indian, an italian and a British.  Would any of those interest you?	west	italian	moderate
+677	2	nope. thats it. thanks.	It's 01799 521260. Is there anything else I can help you with?	west	italian	moderate
+678	0	Can you recommend a restaurant that serves French food?  Not too expensive, please.		none	french	moderate
+678	1	How about a French restaurant in any price range?	There are no French restaurants matching your requests.  Can I help you with something else? 	none	french	dontcare
+678	2	Can you please give me their address and phone number	Cote is a French restaurant in the city centre in the expensive price range.	none	french	dontcare
+678	3	Thank you.  That is all I needed to know.  Bye bye!	Cote's phone number is 01223 311053 and they are located at Bridge Street City Centre. Is there anything else I can help you with today?	none	french	dontcare
+679	0	I am looking for an expensive restaurant that serves Eritrean food?		none	eritrean	expensive
+679	1	Ok then.  Are there any expensive restaurants that serve asian oriental food instead?	There aren't any restaurants matching that description. Would you like to try something else?	none	asian oriental	expensive
+679	2	Centre . Can I have the number please?	I have 2 options, would you prefer the centre or north area?	centre	asian oriental	expensive
+679	3	What are the hours of operation?	Kymmoy seems to meet all your criteria. Here is the informaion, 01223 311911 52 Mill Road City Centre.	centre	asian oriental	expensive
+679	4	Okay, that should be all. Thank you!	They are open from 11:00 Am to 10:30 PM	centre	asian oriental	expensive
+680	0	Hi I'm looking for an expensive restaurant on the east side of town.		east	none	expensive
+680	1	Whatever you recommend.	There are five expensive restaurants in that area, two have Indian cuisine, one is British, another is a gastropub, and the fifth has a Chinese quisine.  Do you  have a preference as to the type of food you would like?	east	dontcare	expensive
+680	2	Just the address would be fine, thank you.	I would recommend the British restaurant at grafton hotel on the East side. Would you like their address and phone number? 	east	dontcare	expensive
+680	3	Thank you and Goodbye.	Grafton Hotel Restaurant is located in the Grafton Hotel. 619 Newmarket Road Fen Dilton	east	dontcare	expensive
+681	0	Hey, I'm looking for a nice restaurant in the East part of town. 		east	none	expensive
+681	1	Phone number, please.	I would try the Royal Standard on Mill Road	east	none	expensive
+681	2	no, that will do me fine.  Thank you.	01223 247877. Is there anything else I can help you with?	east	none	expensive
+682	0	Is there any place serving cheap indian food? 		none	indian	cheap
+682	1	I don't care. 	I found three in the centre part of town and one in the north. Which area do you prefer?	none	indian	cheap
+682	2	Of course!	Kohinoor is an indian restaurant, in the cheap price range and in the centre. Do you want the address and phone number? 	none	indian	cheap
+682	3	no thank you . that's all I need. good bye 	Kohinoor's address is 74 Mill Road City Centre and the phone number is 01223 323639. May I help you with anything else?	none	indian	cheap
+683	0	looking for an expensive restaurant		none	none	expensive
+683	1	Are there any in the east part of town?	There are quite a few diverse, expensive restaurants all located in the centre area. I recommend the Backstreet Bistro at 2 Sturton Street City Centre.	east	none	expensive
+683	2	What is the phone number and post code of Pipasha restaurant?	There are a few, if you prefer British food, there is the Grafton Hotel Restaurant, but if you want Indian food, There is one called Pipasha restaurant.	east	none	expensive
+683	3	Thank you, goodbye.	Phone number is 01223 577786 and postcode is C.B 5, 8 P.A. 	east	none	expensive
+684	0	I am looking for a Malaysian restaurant in the east part of town.		east	malaysian	none
+684	1	How about indian food?	There are no Malaysian restaurants on the east side of town.	east	indian	none
+684	2	Perfect, may I have the address and phone number please?	Curry Prince serves Indian food and is on the east side of town.	east	indian	none
+684	3	That's it. Thank you, goodbye	The phone number for curry prince is 01223 566388 and they are located at 451 Newmarket Road Fen Ditton.  Can I help you with anything else today? 	east	indian	none
+685	0	I'd like to find a restaurant that serves Korean food. 		none	korean	none
+685	1	What is the address , phone number, and postcode?	there is only one korean restaurant in town called little seoul.	none	korean	none
+685	2	Thank you, this is great.	Little Seoul's address 108 Regent Street City Centre, phone number 01223 308681, and postcode C.B 2, 1 D.P. Can I help you with anything else?	none	korean	none
+686	0	I am looking for a restaurant that is in the expensive price range and in the south part of town.		south	none	expensive
+686	1	Let's go with Italian food. 	There are results matching your query. Would you like Mexican, Italian, Chinese, or Indian?	south	italian	expensive
+686	2	 address and phone number	Frankie and Bennys is an expensive Italian eatery in the south part of town. Would you like any additional information about this restaurant?	south	italian	expensive
+686	3	Thank you, goodbye.	The address is Cambridge Leisure Park Clifton Way Cherry Hinton. The phone number is 01223 412430.	south	italian	expensive
+687	0	I am looking for Romanian food.		none	romanian	none
+687	1	any cheap chinese food?	I'm sorry, I cannot find any Romanian food. Is there something else you'd like to try?	none	chinese	cheap
+687	2	Can you tell me more about the options?	There are three choices in centre and one in south.  Any preference?	none	chinese	cheap
+687	3	What is the address of Lucky Star?	Sure.  THere is Charlie Chan, Golden House and Rice House in the centre, and Lucky Star in the south.  Would you like any more info regarding these options?	none	chinese	cheap
+687	4	Can I get the phone number?	Lucky star is located at Cambridge Leisure Park, Clifton Way, in Cherry Hinton	none	chinese	cheap
+687	5	Thank you, that's great. I'm going to go eat now. Goodbye.	The phone number is 01223 244277	none	chinese	cheap
+688	0	I'm looking for an Irish restaurant in the area.  If none are available, I would be interested in turkish cuisine as well.  Could you provide me with the address of the restaurant suggested please?		none	irish	none
+688	1	OK great, thank you.	I would suggest Anatolia at 30 Bridge Street City Centre	none	irish	none
+689	0	I am in the past of town. Can you recommend a restaurant in a moderate priced range?		none	none	moderate
+689	1	I do not care about the type of food.	Do you have a specific food type in mind?	none	dontcare	moderate
+689	2	Is it in the west part of town?	The Bloomsbury restaurant, serves many differnt types of food.	west	dontcare	moderate
+689	3	yes west please	Unfortuntately, Bloomsbury Restaurant is in the centre of town. Would you like for me to search in the west side?	west	dontcare	moderate
+689	4	Great! Could you please give me the address and phone number of that restaurant? 	the meghna is one on the west side.	west	dontcare	moderate
+689	5	Thank you, goodbye	The phone number for meghna is 01223 727410 and they are located at 205 Victoria Road Chesterton. Can I help you with anything else today? 	west	dontcare	moderate
+690	0	Hi, I want a moderately priced restaurant.		none	none	moderate
+690	1	located in the east side 	There are several restaurants in the moderate price range.  Do you have a preference for the type of food or part of town? 	east	none	moderate
+690	2	Yes please, could I have the address, phone number, and postcode of the venue?	There is a moderate priced Indian Restaurant located on the east side, would you like that address?	east	none	moderate
+690	3	Thank you.	curry prince's address is 451 Newmarket Road Fen Ditton, their postcode is C.B 5, 8 J.J. Their phone number is 01223 566388	east	none	moderate
+690	4	That's it, thanks. Good bye.	You're welcome.  Anything else I can help you find?	east	none	moderate
+691	0	My son challenged me to eat the same thing he did in Afghanistan - but where?		none	afghan	none
+691	1	You don't have any Afghan food? Okay how about modern European?	Sorry, we don't have any matching restaurants.	none	modern european	none
+691	2	Do you have their phone number?	Try De Luca Cucina and Bar	none	modern european	none
+691	3	No that's it. Thank you very much.	Yes, the phone number is 01223 356666. Is there any other information you need?	none	modern european	none
+692	0	I want a moderate priced restaurant in the west part of town.		west	none	moderate
+692	1	I don't care. can i also have the postcode and phone number ?	There are three moderately priced restaurants in the west part of town.  What type of food would you like?	west	dontcare	moderate
+692	2	No that is all. Thank you, goodbye.	meghna is in the west part of town and serving indian food, the phone number is 01223727410 and postcode is CB43LF.  Is there anything I can help you with?	west	dontcare	moderate
+693	0	I am looking for a restaurant that serves russian food 		none	russian	none
+693	1	How about Mediterranean? 	i'm sorry, there aren't any 	none	mediterranean	none
+693	2	The price range doesnt matter	We have three available, what is your price range?	none	mediterranean	dontcare
+693	3	yes?	The three restaurants are...	none	mediterranean	dontcare
+693	4	thank you, goodbye	You can try La Mimosa Thompsons Lane Fen Ditton, Shiraz Restaurant at 84 Regent Street City Centre, or The Gardenia at 2 Rose Crescent City Centre.	none	mediterranean	dontcare
+694	0	I am looking for a cheap priced restaurant in the west part of town.		west	none	cheap
+694	1	May I have the address and phone number?	La Margherita is an Italian restaurant located in the west part of town in the cheap price range.  	west	none	cheap
+694	2	Thank you and goodbye!	The address is 15 Magdalene Street City Centre, and the phone number is 01223 315232.	west	none	cheap
+695	0	hello, i'm looking for swedish food		none	swedish	none
+695	1	That's too bad.  How about a German restaurant?	Unfortunately I'm not seeing any Swedish food in town. Can I help you find something similar? 	none	german	none
+695	2	Is there anywhere serving modern european food?	There are no German restaurants.	none	modern european	none
+695	3	I would prefer it be in the centre of town. Can I have the address for such a location?	Yes, I have several options for that type of restaurant. Do you have a preferred price range or location?	centre	modern european	none
+695	4	Yes, give me that address please.	Give address	centre	modern european	none
+695	5	No issue with the price range.	There are four in the centre of town, ranging in price from cheap to expensive. Do you have a price preference?	centre	modern european	dontcare
+695	6	That sounds truly wonderful. Thank you so much!	riverside brasserie is moderately price and is located at  Doubletree by Hilton Cambridge Granta Place Mill Lane.	centre	modern european	dontcare
+696	0	i want somewhere that serves traditional food.		none	traditional	none
+696	1	How abou asian oriental food	There are no traditional restaurants in the city. Can I help you with a different type of cuisine? 	none	asian oriental	none
+696	2	What is the address and phone number?	There are 5 restaurants meeting your criteria. What area and price range did you have in mind?	none	asian oriental	none
+696	3	thank you. good bye.	The dojo noodle bar serves asian oriental food.  They are located at 40210 Millers Yard City Centre and their phone number is 01223 363471.  	none	asian oriental	none
+697	0	I would like a moderately priced restaurant in the south part of town		south	none	moderate
+697	1	Can you give me their address and phone number?	Restaurant Alimentum serves modern European food and is located in the south part of town and is in the moderate price range.	south	none	moderate
+697	2	Thank you goodbye. 	The phone number for Restaurant Alimentum is 01223 413000 and the address is 152 - 154 Hills Road.  Anything else I can help you find today?	south	none	moderate
+698	0	I'm looking for a restaurant in the centre that serves danish food.		centre	danish	none
+698	1	can I have european with the phone number and post code please?	I'm sorry! I don't know of any danish restaurants.	centre	european	none
+698	2	I don't have a preference for modern or classic and give me any price range.	Sure, do you have preference for price range? Also, to narrow it down, we have modern European and classic.	centre	european	dontcare
+698	3	Thank you.	how about darrys cookhouse and wine shop. their number is 01223 505015. the post code is C.B 1, 1 L.N	centre	european	dontcare
+698	4	Have a good day. 	You're welcome.	centre	european	dontcare
+698	5	Right, good bye then.	you have a good day as well!  enjoy your meal.	centre	european	dontcare
+699	0	I'm looking for a restaurant that serves christmas food		none	christmas	none
+699	1	I don't know. how about korean food?	Make a recommendation 	none	korean	none
+699	2	Sure, what the price range?	how does little seoul sound? 	none	korean	none
+699	3	can I have the address 	expensive	none	korean	none
+699	4	Thank you, goodbye.	The address for little seoul is 108 Regent Street City Centre.	none	korean	none
+700	0	I am looking for indian food in the north part of town.		north	indian	none
+700	1	I don't care. However, I would like to know their price range as well as their address and phone number.	There are two restaurants serving Indian food in the North part of town. What price range do you want?	north	indian	dontcare
+700	2	Thank you. Good bye 	Royal Spice is a cheap Indian restaurant located at Victoria Avenue Chesterton. Their number is 01733 553355. Is there anything else I can do for you today?	north	indian	dontcare
+701	0	I am looking for an expensive restaurant.		none	none	expensive
+701	1	French food.	What kind of food are you interested in?	none	french	expensive
+701	2	I don't care.	There are expensive French restaurants in the centre and north areas of town. Do you have a preference for location?	dontcare	french	expensive
+701	3	I really have no desire for Cote. Are there other restaurants available? 	How about Cote, which is in the expensive price range and serves French food?	dontcare	french	expensive
+701	4	Ok I will try this one. I would like the address and phone number please. 	You could also try Restaurant Two Two.	dontcare	french	expensive
+701	5	No, thank you. 	restaurant two two address is 22 Chesterton Road Chesterton and the phone is 01223351880 is there anything else I can help you with?	dontcare	french	expensive
+702	0	I am looking for an expensive restaurant that serves Welsh food.		none	welsh	expensive
+702	1	How about korean food?	I apologize, there are no restaurants in the expensive price range that serve Welsh food. Would you like a different type of food?	none	korean	expensive
+702	2	Yes, I would like their address and what part of town they are located in. 	Little Seoul is an expensive Korean restaurant. Is there anything else I can help you with?	none	korean	expensive
+702	3	Thank you, goodbye.	Little Seoul is located in the centre of town and the address is 108 Regent Street City Centre.	none	korean	expensive
+703	0	My hotel is in the south part of town. Are there any good restaurants?		south	none	none
+703	1	Are there any other locations nearby?	How about chiquito restaurant bar, that is in the south part of town?	south	none	none
+703	2	It doesn't matter.	There are 8 other places. Any preference on the type of food?	south	dontcare	none
+703	3	A moderately priced restaurant.	what is your price range?	south	dontcare	moderate
+703	4	What type of food do they serve at Restaurant Alimentum?  Could you provide me with the address please?	There is pizza hut cherry hinton and restaurant alimentum.	south	dontcare	moderate
+703	5	Great, thank you very much.	Restaurant Alimentum serves modern European food on the south side at 152 - 154 Hills Road	south	dontcare	moderate
+703	6	That should be all, thank you!	Is there anything else I can help you with?	south	dontcare	moderate
+704	0	I am looking for an affordable restaurant on the west side of town.		west	none	cheap
+704	1	Italian will do. may i have the address and number please?	Sure Italian or Vietnamese?	west	italian	cheap
+705	0	I am looking for the phone number and address of a restaurant that serves european food?		none	european	none
+705	1	I don't care. give me the address and phone number of one of them.	There are a number of restaurants that serve european food, can you narrow down the area or price range?	dontcare	european	dontcare
+705	2	Great! thank you	Cambridge Lodge Restaurant serves European food and it is in the expensive price range. The phone number is 01223 355166 and the address is Cambridge Lodge Hotel 139 Huntingdon Road City Centre.	dontcare	european	dontcare
+706	0	Where can I go for Welsh food?		none	welsh	none
+706	1	Are there any restaurants that serve Vietnamese food?	There are no results for Welsh food.   Is there another cuisine you would like?	none	vietnamese	none
+706	2	Sure, can i get the address and phone number?	Thanh Binh is in the west area.  Is that okay?	none	vietnamese	none
+706	3	No, that's all, thank you very much!	Their address is 17 Magdalene Street City Centre and the phone number is 01223 362456. Is there anything else I can assist you with today?	none	vietnamese	none
+707	0	I'm looking for an indian restaurant in the south part of town.		south	indian	none
+707	1	May I have the address, phone number and price range?	ok I have Taj Tandoori listed on Cherry Hinton.	south	indian	none
+707	2	Ok thanks.	Sure! Taj Tandoori is an expensive restaurant located at 64 Cherry Hinton Road Cherry Hinton,   01223 412299 .	south	indian	none
+708	0	Tuscan food in the south part of town. If not Tuscan, then portuguese .		south	tuscan	none
+708	1	How about portuguese food	I'm sorry, there are no tuscan restaurants on the south side of town.  Nandos is a portuguese restaurant on the south side of town, would you like more information on that?	south	portuguese	none
+708	2	Yes could I please have their address and phone number?	Nandos is listed as a restaurant serving Postures food in the cheap price range, would you like further information?	south	portuguese	none
+708	3	Thanks so much!	Cambridge Leisure Park Clifton Way and number is 01223 327908	south	portuguese	none
+709	0	I am looking for a restaurant in the moderate price range that serves Lebanese food.		none	lebanese	moderate
+709	1	Tell me the address and phone number of Ali baba restaurant.	The Ali baba restaurant serves lebanese food and is in the moderate price range.	none	lebanese	moderate
+709	2	Thank you bye bye	Their address is 59 Hills Road City Centre and their phone number is 01462 432565.	none	lebanese	moderate
+710	0	Hi. I would like a restaurant that serves seafood in the north part of town. Can you send me the address and phone number? 		north	seafood	none
+710	1	How about italian food?	There are no seafood restaurants in that part of town.  Would you like me to check in other areas?	north	italian	none
+710	2	Sound great! Thank you.	There is a pizza restaurant named da vinci pizzeria at 20 Milton Road, Chesterton.  The phone number is 01223 351707	north	italian	none
+711	0	I'm trying to find Eritrean food - doesn't matter where.		dontcare	eritrean	none
+711	1	How about mediterranean?	There are no matching records found for Eritrean food.  Is there another type I can interest you in?	dontcare	mediterranean	none
+711	2	Can I have the address, Phone number and postcode?	I have two upscale mediterrean places and one inexpesnsive one all in the city centre.	dontcare	mediterranean	none
+711	3	Can I have the address, phone number and postcode for the other two as well please?	la mimosa is located at Thompsons Lane Fen Ditton C.B 5, 8 A.Q and the phone number is 01223 362525	dontcare	mediterranean	none
+711	4	Thank you for your helpful answers. Goodbye.	The Shiraz restaurant (expensive) is at 84 Regent Street City Centre, C.B 2, 1 D.P, tel.  01223 307581. The Gardenia (cheap) is at 2 Rose Crescent City Centre, tel. 01223 356354	dontcare	mediterranean	none
+712	0	I need a vegetarian restaurant		none	vegetarian	none
+712	1	East part of town. 	What area would you like?	east	vegetarian	none
+712	2	Is there an indian restaurant in the east part of town? 	I'm sorry, there are no vegetarian restaurants in the east part of town.	east	indian	none
+713	0	Just something to fill me up without costing a fortune.		none	none	cheap
+713	1	Not really, is there one that is cheaper than the rest?	I found several restaurants in the cheap price range. Is there a type of food you are looking for?	none	none	cheap
+713	2	sure, what's their phone number and address?	How about la margherita?	none	none	cheap
+713	3	Is that on the east part of town?	la margherita is located at 15 Magdalene Street City Centre and can be reached at 01223 315232 by phone.	east	none	cheap
+713	4	Sorry, yes please.	No, it is located on the west part of town. Would you prefer a restaurant in the east?	east	none	cheap
+713	5	thank you, goodbye	There is The Missing Sock.	east	none	cheap
+713	6	Oh yes of course please.  How thoughtless of me.	Would you like the address or phone number of The Missing Sock?	east	none	cheap
+713	7	Thank you, goodbye. 	Their address is Finders Corner on Newmarket Road, phone 01223 812660.	east	none	cheap
+714	0	I want a moderately priced restaurant on the west side.		west	none	moderate
+714	1	Indian is fine.	There is indian, italian, and british. Which do you prefer?	west	indian	moderate
+714	2	thank you	meghna at 205 Victoria Road Chesterton	west	indian	moderate
+714	3	May I have the phone number and the post code please	Is there anything else I can help you with?	west	indian	moderate
+714	4	Will that be all?	Meghna's phone is 01223 727410, and postcode  C.B 4, 3 L.F 	west	indian	moderate
+714	5	You already gave that to me. Thank you, goodbye. 	Do you also need the address?	west	indian	moderate
+715	0	hello, i'm looking for a restaurant with fair prices		none	none	moderate
+715	1	South part of town.	ok are you looking for a certain type of cuisine or a specific area of the city?	south	none	moderate
+716	0	Where is the closest scandinavian restaurant?		none	scandinavian	none
+716	1	can i get the address and phone number of a thai restaurant 	I'm sorry I'm not finding any Scandinavian restaurants, is there a different type you would like?	none	thai	none
+716	2	Bangkok City, please.	Sure. Bangkok City is in the City Centre and Sala Thong is in the west part of town. Which would you like the address and phone number for?	none	thai	none
+716	3	No, that's it, thank you. 	Bangkok city is located at 24 green street city centre. their phone number is 01223 354382. anything else i can help you with?	none	thai	none
+717	0	Indian in the north		north	indian	none
+717	1	What is the address, phone number, and price range of one of them?	there are two Indian restaurants, Royal Spice and The Nirala.	north	indian	none
+717	2	Thank you goodbye. 	Royal Spice is an Indian restaurant on the North part of town and it is in the cheap price range. The phone number is 01733 553355 and the address is Victoria Avenue Chesterton.	north	indian	none
+718	0	I'd like to hear about some british restaurants in the west part of town, please.		west	british	none
+718	1	How expensive is Graffiti?	Graffiti is located at Hotel Felix Whitehouse Lane Huntingdon Road	west	british	none
+718	2	Can I get the address and phone number?	Graffiti is listed as an expensive restaurant.	west	british	none
+718	3	Thanks, that's all.	Of course! The address is Hotel Felix Whitehouse Lane Huntingdon Road and the phone is 01223 277977	west	british	none
+719	0	Hello, I am looking for a moderately priced restaurant on the east part of town. 		east	none	moderate
+719	1	I don't care.	Do you have a preference on type of food?	east	dontcare	moderate
+719	2	ok, what are they?	there are three venues to choose from	east	dontcare	moderate
+719	3	Could I get the address of one of them?	curry prince and rajmahal which both serve indian food. And pizza hut fen ditton serves italian food.	east	dontcare	moderate
+719	4	Thank you, goodbye.	Absolutely.  Curry Prince's address is 451 Newmarket Road Fen Ditton.  Is there anything else I can do for you?	east	dontcare	moderate
+720	0	I want some welsh food. Moderately priced please.		none	welsh	moderate
+720	1	I'd like a Chinese restaurant instead then.	I'm sorry I do not find any restaurants meeting those requirements	none	chinese	moderate
+720	2	I don't care. 	There are several chinese restaurants in the moderate price range. Would you prefer the north or centre of town? 	none	chinese	moderate
+720	3	I would like their phone number, please. 	Golden Wok is located in the north part of town. Would you like their address and phone number?	none	chinese	moderate
+720	4	Is there any thing else i can help you with?	golden wok's phone number is 01223 350688	none	chinese	moderate
+720	5	Thank you, goodbye.	I appreciate the offer, but it is my job to help you.  Is there anything else?	none	chinese	moderate
+721	0	Can I get a cantonese restaurant?		none	cantonese	none
+721	1	How about Chinese?	I'm sorry there are no cantonese restaurants. Would you like something else?	none	chinese	none
+721	2	I would like the phone number for a moderately priced chinese restaurant. 	There are several chinese restaurants in town.  Would you prefer something in the cheap, moderate or expensive price range? 	none	chinese	moderate
+721	3	Thank you goodbye.	How about shanghai family restaurant?  Its number is 01223 301761.	none	chinese	moderate
+722	0	I am looking for a fancy restaurant on the east side.		east	none	expensive
+722	1	Can I have the address and phone number for Yu Garden?	Pipasha Restaurant, Sital Tandoori and Yu Garden are some options in that area.	east	none	expensive
+722	2	Thank you for your help.	Yes, the address to Yu Garden restaurant is 529 Newmarket, Road Fen Ditton.	east	none	expensive
+722	3	yes phone number please	You're welcome. Would you still like the phone number for Yu Garden?	east	none	expensive
+722	4	Wonderful, I love this service.	The phone number is 01223 248882	east	none	expensive
+723	0	i want some mexican food.		none	mexican	none
+723	1	I want a restaurant in the centre and serves asian oriental food? What is the phone number?	The only listing for Mexican food is Chiquito Restaurant Bar. How else may I assist you?	centre	asian oriental	none
+723	2	I don't care.	We have four Asian oriental restaurants in centre.  What price range do you prefer?	centre	asian oriental	dontcare
+723	3	What is the phone number?	Dojo Noodle Bar serves asian oriental food and is located in the centre of town.  The price range is cheap.   	centre	asian oriental	dontcare
+723	4	No, thank you, that's all I need.  Thank you and goodbye!	The phone number for dojo noodle bar is 01223 363471.  Would you like any other information? 	centre	asian oriental	dontcare
+724	0	I'm looking for a restaurant that has turkish food anywhere.		dontcare	turkish	none
+724	1	that doesn't matter. Could you also let me know the postcode?	There are three possibilities all located in the centre part of town. What price range would you like?	dontcare	turkish	dontcare
+724	2	Thank you.  	The postcodes for the three are: C.B 2, 1 U.J and C.B 1, 1 L.N and C.B 1, 3 N.F	dontcare	turkish	dontcare
+724	3	No. Thank you and Goodbye.	Is there anything else I can assist you with?	dontcare	turkish	dontcare
+725	0	Do you have any low priced places that take coupons?		none	none	cheap
+725	1	Yes, I would like to go to the east side of town. What type of restaurants are over there? Can I have the address and phone number of the place?	I found several cheap restaurants. Is there an area of town you are looking for?	east	none	cheap
+725	2	That sounds good. Thanks! Bye. 	There's one restaurant, it's international food and it is at Finders Corner Newmarket Road and their phone number is 01223 812660	east	none	cheap
+726	0	A moderately priced restaurant in the north part of town, please.		north	none	moderate
+726	1	Yes please.	The golden wok is a nice restaurant in the north part of town and is in the moderate price range.  Would you like their location? 	north	none	moderate
+726	2	Phone number?	The golden wok is located at 191 histon road chesterton	north	none	moderate
+726	3	That's it, thank you. Good bye.	The Golden Wok's phone number is 01223 350688. Is there anything else I can help you with?	north	none	moderate
+727	0	I am looking for a restaurant in the moderate price range that serves Indian food.		none	indian	moderate
+727	1	I don't care.	do you have a preference as to what part of town? 	dontcare	indian	moderate
+727	2	Indian food	Curry prince is an indian restaurant, in the moderate price range and in the east. Do you want the address and phone number?	dontcare	indian	moderate
+727	3	May I have the phone number?	Rajmahal is an Indian restaurant in the east part of town and in the moderate price range.   How does that sound?	dontcare	indian	moderate
+727	4	No. Thank you. 	The phone number is 01223 244955.  Is there anything else I can help you with?	dontcare	indian	moderate
+728	0	I'm looking for a restaurant that serves belgian food		none	belgian	none
+728	1	Portuguese, please.	There aren't any belgian restaurants in the area. Would you like to search for something else?	none	portuguese	none
+728	2	Yes, please.  I will take the phone number and address for Nandos in the south area.	For portuguese food, there is Nandos in the south part of town or Nandos City Centre. Would you like the contact information for either of those?	south	portuguese	none
+728	3	Thank you goodbye.	Absolutely, nandos is located at cambridge leisure park clifton way. Its phone number is 01223327908. Would you like anything else? 	south	portuguese	none
+729	0	Hi. I am looking for a place serving French food in the centre. Please send me phone number and price range. 		centre	french	none
+729	1	Thank you very much! Goodbye.	cote is french and expensive. their phone number is 01223 311053.	centre	french	none
+730	0	Hi, I want a French restaurant in the expensive price range.		none	french	expensive
+730	1	Could you please find me a different restaurant? 	Cote is a French restaurant in the city centre and is in the expensive price range.	none	french	expensive
+730	2	What is the phone number and postcode? 	Another option is Restaurant Two Two. Would you like more information on that restaurant?	none	french	expensive
+730	3	Thank you goodbye.	the phone is   01223 351880 and the postcode is C.B 4, 3 A.X	none	french	expensive
+730	4	Bye.	Enjoy your meal.  Goodbye.	none	french	expensive
+731	0	I would like to find a moderately priced restaurant in the west part of town. 		west	none	moderate
+731	1	west part of town. 	Meghna is an indian restaurant that meets your criteria. Would you like their location? 	west	none	moderate
+731	2	Can you please let me know the address?	Meghna is located in the west part of town.	west	none	moderate
+731	3	Are there any other moderately price restaurants in the west part of town? Can I get the address for another one?	The address is 205 Victoria Road Chesterton.	west	none	moderate
+731	4	Thank you goodbye. 	Prezzo is a moderately priced Italian restaurant in the west part of town. It is located at 21-24 Northampton Road. 	west	none	moderate
+732	0	Are there any cheap restaurants?		none	none	cheap
+732	1	I would like the phone number(s) for inexpensive places on the West side of town.	I have quite a few.  Are you looking for a specific type of food, or in a certain part of town?	west	none	cheap
+732	2	It sounds great! Thank you very much!	La Margherita is Inexpensive Italian food on the West side of town. The phone number is 01223 315232. How does that sound?	west	none	cheap
+733	0	Hello, I am looking for an expensive restaurant that serves cantonese food. 		none	cantonese	expensive
+733	1	Yes.  An expensive thai restaurant would be good. 	Sorry, there are no expensive restaurants serving cantonese food. Would you like to look for something else?	none	thai	expensive
+733	2	Great, can you please give me its address and  phone number? 	Bangkok city serves Thai food and is in the expensive price range.	none	thai	expensive
+733	3	What is the postcode?	Bangkok City is at 24 Green street city and phone number is 01223 354382.	none	thai	expensive
+733	4	Thank you good bye. 	The postcode is C.B. 1 7 D.Y	none	thai	expensive
+734	0	I would like a restaurant that serves swiss food		none	swiss	none
+734	1	I would like to try vietnamese food	I'm sorry, we do not have any Swiss restaurants available.  Do you want to try a different type of food? 	none	vietnamese	none
+734	2	What is the address?	Thanh Binh is a good vietnamese restaurant in the cheap price range	none	vietnamese	none
+734	3	OK thank you. Good bye.	17 Magdalene Street City Centre	none	vietnamese	none
+735	0	I want to find a moderately priced restaurant in the south part of town.		south	none	moderate
+735	1	What is the address and phone number of Alimentum?	There are two choices in the south part of town with moderate price. One is Pizza Hut Cherry Hinton, which is Italian food. and the other is restaurant alimentum, which is modern european food.	south	none	moderate
+735	2	Thank you very much good bye	restaurant Alimentum is located at 152 - 154 Hills Road and the phone number is 01223 413000.	south	none	moderate
+736	0	I would like a moderately priced restaurant located in the south part of town.		south	none	moderate
+736	1	What type of food are they. What is their address?	Pizza Hut Cherry Hinton is an Italian restaurant in the south of town in the moderate price range.	south	none	moderate
+736	2	Thank you. Good bye 	They serve Italian food. The address is G4 Cambridge Leisure Park Clifton Way Cherry Hinton.	south	none	moderate
+737	0	I am looking for a cheap restaurant that is in the north part of town.		north	none	cheap
+737	1	I'm not interested in that choice. Is there anything else within those categories?	Royal Spice is an Indian restaurant in the north part of town. It is in the cheap price range. 	north	none	cheap
+737	2	I would like the phone number and address of da vinci pizzeria	how about da vinci pizzeria? a cheap italian place in the north ?	north	none	cheap
+737	3	Thank you. Good Bye. 	no problem, its phone number is 01223 351707 and address is 20 Milton Road Chesterton.	north	none	cheap
+738	0	I'd like the address and phone number an expensive moroccan restaurant.  		none	moroccan	expensive
+738	1	In that case, could I have the phone number of an expensive restaurant that serves European food?	There are no restaurants listed with those specifics, would you like to add to your query? 	none	european	expensive
+738	2	No specific area.	There are 4 listings. Do you have an area that youd prefer ?	dontcare	european	expensive
+738	3	May I have the address, phone number and area of the first restaurant?	cambridge darrys cookhouse and wine shop eraina michaelhouse . can I help you with anything else	dontcare	european	expensive
+738	4	No, thank you and goodbye.	Cambridge Lodge Restaurant is located on the West side at Cambridge Lodge, Hotel 139, Huntington Road, City Center and the phone number is 01223 355166. Is there anything else I can help you with?	dontcare	european	expensive
+738	5	Live long and prosper, good-bye.	Having a Great day.	dontcare	european	expensive
+739	0	I am looking for a restaurant that is in the cheap price range and in the east part of town.		east	none	cheap
+739	1	can i have the phone and address ?	The Missing Sock serves cheap food in the east part of town. 	east	none	cheap
+739	2	thank you for your help, good bye.	the address of the missing sock is Finders Corner Newmarket Road and phone number is 01223 812660	east	none	cheap
+740	0	I'm looking for a cheap restaurant in the east part of town.		east	none	cheap
+740	1	What is the address and phone number?	the missing sock is a nice restaurant in the east part of town in the cheap price range	east	none	cheap
+740	2	No, thank you, I have everything I need.  Thank you and goodbye!	The address of The Missing Sock is Finders Corner Newmarket Road and the phone number is 01223 812660. May I help you with anything else today?	east	none	cheap
+740	3	Goodbye.	Thank you for using our system. Good bye 	east	none	cheap
+741	0	I am looking for a cuban restaurant in the north part of town. 		north	cuban	none
+741	1	I still want the north part of town, but look for Asian Oriental food instead please.	I am sorry, I could not find any Cuban restaurants for you in the north part of town.  Is there a different type of food you would like me to search for instead?	north	asian oriental	none
+741	2	Yes, I would like their address and phone number, please. 	Saigon City is located in the north part of town and serves Asian Oriental food.   Would you like their address?	north	asian oriental	none
+741	3	No, that does it.  Thank you and goodbye!	The phone number for saigon city is 01223 356555 and their address is 169 High Street Chesterton Chesterton.  Would you like anything else? 	north	asian oriental	none
+742	0	I am looking for bistro food.		none	bistro	none
+742	1	How about a restaurant serving Portuguese food?	I cannot find any restaurants matching your request. Can I find something else for you instead?	none	portuguese	none
+742	2	May I have the address and phone number of Nandos?	Nandos City Centre, which is in the south part of town, serves Portuguese food and they are in the cheap price range. 	none	portuguese	none
+742	3	Thank you	Nandos' address is Cambridge Leisure Park Clifton Way and their phone number is 01223 327908.	none	portuguese	none
+743	0	I am searching for a restaurant serving vietnamese food in the centre of town. 		centre	vietnamese	none
+743	1	I prefer to stay in the centre of town. Is there a turkish restaurant? 	There is one Vietnamese restaurant, but it's in the West end of town. Would that work for you?	centre	turkish	none
+743	2	I don't care about the price range.	Yes there are three restaurants serving Turkish food in the center of town in the moderate and expensive price range. Which price range would you prefer?	centre	turkish	dontcare
+743	3	Can you give me the address?	Anatolia serves Turkish food in the centre of town. Would you like their phone number?	centre	turkish	dontcare
+743	4	What price range is Anatolia?	the anatolia is located at 30 Bridge Street City Centre.  Is there any other information you need? 	centre	turkish	dontcare
+743	5	Thank you goodbye. 	Anatolia is in the moderate price range	centre	turkish	dontcare
+744	0	I am looking for a Japanese restaurant in the centre of town.		centre	japanese	none
+744	1	What is the address and phone number?	There is a Japanese restaurant called Wagamama in the centre of town.	centre	japanese	none
+744	2	Goodbye.	Their address is 36 Saint Andrews Street and their phone number is 01223 462354.	centre	japanese	none
+745	0	Hi.. I'm looking for some vietnamese food?		none	vietnamese	none
+745	1	That sounds great. what is the Phone number? Please.	Thanh Binh serves Vietnamese Food.  It is located at 17 Magdalene Street.	none	vietnamese	none
+745	2	thank you good bye.	Thanh Binh's phone number is 01223 362456.	none	vietnamese	none
+746	0	I would like to find someplace that serves gastropub food.		none	gastropub	none
+746	1	how about chinese?	There are 4 options in either the centre or east part of town. Would you prefer either of these areas?	none	chinese	none
+746	2	Give me the gastropubs that are the cheapest.	There are none available.  How else may I assist you?	none	gastropub	cheap
+746	3	That sounds good.  Can I please have the phone number?	The Cow Pizza Kitchen and Bar is the cheapest option at a moderate price range. How does that sound? 	none	gastropub	moderate
+746	4	No the phone number is sufficient. Thank you.	The phone number to the Cow Pizza Kitchen and Bar is 01223 308871. Is there anything else I can help you with?	none	gastropub	moderate
+747	0	I want some goulash like Grandma used to do - price no object!		none	hungarian	dontcare
+747	1	At a Hungarian restaurant.  	I'm sorry, I'm not seeing anything for goulash around here. At what type of restaurant would you expect to find what you're looking for?  	none	hungarian	dontcare
+747	2	Ok, where are the International restaurants?	I'm afraid I show no Hungarian restaurants in our system.  Perhaps in international restaurant might have it?	none	international	dontcare
+747	3	I'll take the info. for the cheap one.	There are two moderately priced restaurants in the centre of town and one cheap restaurant on the East side. Would you like any of this information?	none	international	cheap
+747	4	Do you have the Postcode for that?	The Missing sock, #01223 812660 and the address is Finders Corner Newmarket Road. Can I help you with anything else?	none	international	cheap
+747	5	Thank you for the help. Bye bye.	The postcode is C.B 25, 9 A.Q. Is there anything else I can help you with?	none	international	cheap
+748	0	I am looking for a restaurant in the west part of town that is in the cheap price range.		west	none	cheap
+748	1	I don't care. Any type of food will be fine. 	There are two restaurants in the west part of town. What type of food are you interested in?	west	dontcare	cheap
+749	0	hello, i'm looking for a restaurant that serves persian food		none	persian	none
+749	1	How about Indian on a budget?	No, I am not finding any Persian restaurants.	none	indian	cheap
+749	2	don't care.	I am showing four Indian restaurants. Is there an area you would prefer? 	dontcare	indian	cheap
+749	3	Can you give me the 3 in Centre?	There is 3 in Centre and 1 in North. Which do you prefer?	centre	indian	cheap
+749	4	id like the addresses for the 3 in centre please	thank you, goodbye	centre	indian	cheap
+749	5	Thank you for your help.  I'm all set.	kohinoor is at 74 Mill Road City Centre, mahal of cambridge is at 3 - 5 Millers Yard Mill Lane, and the gandhi is at 72 Regent Street City Centre.	centre	indian	cheap
+750	0	What is a bistro and where can I find one?		none	bistro	none
+750	1	It can be any area. 	What area are you looking for?	dontcare	bistro	none
+750	2	thank you, goodbye	There are no bistros. Is there another type of restaurant I can help you find? 	dontcare	bistro	none
+750	3	can I have the phone number please	thank you, goodbye	dontcare	bistro	none
+750	4	Oh my bad i wasn't paying attention, i have been having a bad day. Let's go with a French Restaurant then?	I'm sorry for the confusion, but there are no Bistro restaurants in any area nearby.  Is there something else I can help you find?	dontcare	french	none
+750	5	How about Cote?  What is their address?	Cote is in the Centre of town, Restaurant Two Two is on the North side, any preference?	dontcare	french	none
+750	6	Can I please have their phone number?	Cote is located at Bridge Street City Centre. Is there anything else I can assist you with?	dontcare	french	none
+750	7	That should be all, thank you! 	The phone number for Cote is 01223 311053. Is there anything else I can assist you with today?	dontcare	french	none
+751	0	an expensive restaurant please		none	none	expensive
+751	1	I was thinking catalan food	Do you have an area of town or type of cuisine in mind?	none	catalan	expensive
+751	2	Are there any mid range Catalan restaurants?	There are no expensive catalan restaurants. Can I help you find something else?	none	catalan	moderate
+751	3	How about Italian?	Yes. what type of food do you want ?	none	italian	moderate
+751	4	Great, what is thier address, phone number and area?	Prezzo is an Italian restaurant in the moderate price range.	none	italian	moderate
+751	5	Thank you goodbye. 	Prezzo is located at 21-24 northampton road. Its phone number is 01799521260 and it is in the west. Is there anything else can I help you with? 	none	italian	moderate
+752	0	I am looking for a moderately priced restaurant in the north part of town, what do you have available?		north	none	moderate
+752	1	Please tell me the address and phone number of the indian restaurant	I show two restaurants that fit your criteria. One is chinese and one is indian. Which one would you like to find out more about?	north	indian	moderate
+752	2	That's all I need, thank you.  Goodbye!	The Nirala is located at 7 Milton Road Chesterton and can be reached at 01223 360966. Will that be all or can I assist you further? 	north	indian	moderate
+753	0	I would like a restaurant in the north part of town that serves french food		north	french	none
+753	1	What is their address, number, and price range?	There is Restaurant Two Two in the the north side of town that serves French Food.	north	french	none
+753	2	No, that takes care of it. Thank you for your help.	Restaurant two two is in the expensive price range.  their phone number is 01223 351880 and they are located at 22 Chesterton Road Chesterton. Would you like anything else? 	north	french	none
+754	0	I am looking for a moderately priced restaurant in the south part of town, please.		south	none	moderate
+754	1	Yes, may I have th phone number and address please?	pizza hut cherry hinton is located in the south part of town and is in the moderate price range.  Would you like more information for them? 	south	none	moderate
+754	2	Thank you! Have a nice day!	It's phone number is 01223 323737 and its address is G4 Cambridge Leisure Park Clifton Way Cherry Hinton.	south	none	moderate
+755	0	I'd like something moderately priced please.		none	none	moderate
+755	1	No, the type of food doesn't matter.	Do you care what type of food?	none	dontcare	moderate
+755	2	What is the phone number?	Yippee noodle bar serves asian oriental food in the moderate price range.	none	dontcare	moderate
+755	3	Thank you for giving me the information . Good bye.	The phone number for Yippee Noodle Bar is 01223 518111.	none	dontcare	moderate
+756	0	Give me something cheap for my brother-in-law.		none	none	cheap
+756	1	Great. Can you send me restaurants in the south part of town? Please send phone number and postcode. 	I will find some cheap food for you	south	none	cheap
+756	2	nandos? gross.  Got anything better?	Nandos' phone number is 01223 327908. Their postcode is C.B 1, 7 D.Y	south	none	cheap
+756	3	phone number and postcode, please.	There is the Lucky Star, which is Chinese food.	south	none	cheap
+756	4	no thank you, goodbye	The phone number for The Lucky Star is 01223 244277 and the postcode is C.B 1, 7 D.Y. Is there anything else I can help you with?	south	none	cheap
+756	5	Goodbye	You're welcome. Goodbye.	south	none	cheap
+757	0	looking for a restaurant in the moderately priced range		none	none	moderate
+757	1	I don't care about the area of town, but I'd like cuban food.	There are several moderately priced restaurants.  Do you have a preference to the area of town? 	dontcare	cuban	moderate
+757	2	Are there any international restaurants in the moderate range?	There are no results for moderately priced Cuban food restaurants. Is there anything else I can help you with?	dontcare	international	moderate
+757	3	Can I get the address and postcode, please?	There is an international restaurant in the moderate range called The Varsity Restaurant in the centre area of town.	dontcare	international	moderate
+757	4	Thank you good bye.	The address of The Varsity Restaurant is 35 Saint Andrews Street City Centre and the postcode is C.B 2, 3 A.R.	dontcare	international	moderate
+758	0	Hi.. is there any international food?		none	international	none
+758	1	yes, moderate	Yes there is international food in the centre and over east; the prices range from cheap to moderate.  Do you have a preference?	none	international	moderate
+758	2	Sure, may I have the address and number?	I have two options. Can i recommend Bloomsbury Restaurant?	none	international	moderate
+758	3	May I please have the address and the phone number?	thank you,  goodbye 	none	international	moderate
+758	4	nope thats it. thank you. bye	Sure, sorry.  Here it is:  0871 942 9180 Crowne Plaza Hotel 20 Downing Street.  Is there anything else you need?	none	international	moderate
+759	0	I'm interested in a Malaysian restaurant near the centre of town.		centre	malaysian	none
+759	1	any British food?	Unfortunately we don't have any Malaysian restaurants in that area. Is there another type of restaurant you would like or another area of town to try?	centre	british	none
+759	2	It doesn't matter, whichever you recommend. 	I have quite a few in the centre ranging from moderate to expensive price range.	centre	british	dontcare
+759	3	Yes.  And the phone number, please.	I would recommend a restaurant called Cotto in Road City Centre. Would you like the address?	centre	british	dontcare
+759	4	Still waiting.	Alright. Just a minute while I look up that information.	centre	british	dontcare
+759	5	Thank you, Goodbye.	Sorry for the delay. The address is 183 East Road City Centre and the phone number is 01223 302010.	centre	british	dontcare
+760	0	I'm looking for a cheap restaurant in the north part of town.		north	none	cheap
+760	1	Is there anything else?	How about Charlie Chan? It is cheap and delicious.	north	none	cheap
+760	2	Yes please.	There is Royal Spice if you like Indian and Da Vinci Pizzeria if you like Italian.  Would you like more info on either of those?	north	none	cheap
+760	3	What is the phone number?	For which would you like more information, the Royal spice, or the Da Vinci Pizzeria.	north	none	cheap
+760	4	What is the postcode?	Royal Spice's phone number is 01733 553355, and Da Vinci Pizzeria's is 01223 351707.	north	none	cheap
+760	5	what is the price range ?	The postcode is C.B 2, 1 U.J.	north	none	cheap
+760	6	Thank you goodbye. 	They are in the cheap price range. 	north	none	cheap
+761	0	I want to find a cheap restaurant in the north part of town. What is the address and phone number?		north	none	cheap
+761	1	Thank you, goodbye.	Da Vinci Pizzeria, which is in the north part of town and the cheap price range, is at 20 Milton Road Chesterton and the phone number is 01223 351707.	north	none	cheap
+762	0	I want a cheap restaurant in the west part of town. what is the address and phone number?		west	none	cheap
+762	1	Is there anything else, if so give me their address and phone number.	I have found two that may work. first, la margherita is at 15 Magdalene Street City Centre, phone is 01223 315232. second one serves vietnamese at 17 Magdalene Street City Centre, number is 01223 362456	west	none	cheap
+762	2	No thank you.  	Those are the only listings in the west part of town. Would you like to change your location or price range?	west	none	cheap
+762	3	No, that's fine.  Thank you!	Is there anything else I can help you with?	west	none	cheap
+763	0	Yes, I'm looking for a restaurant in the east part of town serving international food. 		east	international	none
+763	1	May I have their phone number, please? 	The Missing Sock is in the east part of town and it serves International food. 	east	international	none
+763	2	Okay, thank you 	The phone number for The Missing Sock is 01223 812660.	east	international	none
+763	3	Thank you for using our system and please return with any other inquiries.	Is there anything else I can do for you?	east	international	none
+763	4	Goodbye!	You're welcome. Good bye.	east	international	none
+764	0	I am looking for a restaurant in the center of town that serves Russian food.		centre	russian	none
+764	1	yes please, is there any restaurant serve british food? 	There are no Russian restaurants in the centre of town. Would you like something else?	centre	british	none
+764	2	No. What is the address and phone number?	There is one moderately priced British restaurant and one expensive restaurant. Do you have a preference?	centre	british	dontcare
+764	3	thank you, good bye 	fitzbillies restaurant's phone number is 01223 352500. Their address is 51 Trumpington Street City Centre	centre	british	dontcare
+765	0	Could you recommend an expensive restaurant that serves Mediterranean food?		none	mediterranean	expensive
+765	1	I don't care what part of town the restaurant is in.	Sure thing! Where are you located?	dontcare	mediterranean	expensive
+765	2	What is their phone number and post code?	How about shiraz restaurant?	dontcare	mediterranean	expensive
+765	3	Thank you, goodbye. 	Their postcode is C.B 2, 1 D.P and their phone number is 01223307581.	dontcare	mediterranean	expensive
+766	0	hello, i'm looking for a restaurant that serves good thai food		none	thai	none
+766	1	I'd prefer the west side.	I found one on the centre side of town and one on the west side. Is there one you prefer?	west	thai	none
+766	2	yes can I have the phone number and address 	Sala Thong is on the west side.  Would you like more information?	west	thai	none
+766	3	Is it cheap?	The address is 35 Newnham Road Newnham and the phone number is 01223 323178. Is there anything else I can help you with?	west	thai	none
+766	4	All right, thanks	Sala Thong is described as expensive.	west	thai	none
+766	5	You're welcome	You're welcome	west	thai	none
+767	0	I don't care about price range, find me an european food restaurant, please.		none	european	dontcare
+767	1	What ids the address and phone number?	Cambridge lodge restaurant is a restaurant that serves european food. Would you like more information?	none	european	dontcare
+767	2	Great!  Thank you very much.	Thier phone number is 01223 355166 and address is Cambridge Lodge Hotel 139 Huntingdon Road City Centre	none	european	dontcare
+767	3	Good bye 	Thank you bye	none	european	dontcare
+767	4	Good bye.	Good day!	none	european	dontcare
+768	0	I want a place with austrian food.		none	austrian	none
+768	1	Ok, how about a place with Spanish food?	I'm sorry, I don't have a restaurant that serves austrian food. Do you have a second choice?	none	spanish	none
+768	2	Thanks for your help! Goodbye.	There is la raza, a cheap spanish restaurant located at 4 - 6 Rose Crescent. There is also la tasca, a moderately priced spanish restaurant located at 14 -16 Bridge Street.	none	spanish	none
+769	0	i would like the address of a cheap restaurant in the south part of town		south	none	cheap
+769	1	Can I have the address to the chinese place?	I've found portuguese and chinese. Any preference?	south	chinese	cheap
+769	2	Can I have the phone number of the restaurant in case I want to call ahead?	Yes, Cambridge Leisure Park Clifton Way Cherry Hinton	south	chinese	cheap
+769	3	No thanks. have a good day!	The phone number for The Lucky Star is 01223 244277. Can I provide any further information to assist you today?	south	chinese	cheap
+770	0	I need to find polish restaurants in town and I would like their numbers.  Or maybe modern european food would work.		none	polish	none
+770	1	Yes.  Can you help me find some modern european food instead?	I'm sorry, but no Polish restaurants are coming up in my search. Is there anything else I can help you with? 	none	modern european	none
+770	2	Give me the phone number for any moderately priced options.	I found multiple modern european restaurants in the area. Did you have a price range in mind?	none	modern european	moderate
+770	3	Thank you, goodbye. 	De luca Cucina and Bar fits your request and their phone number is. 0122335666	none	modern european	moderate
+771	0	hello, i'm looking for a restaurant that serves international food		none	international	none
+771	1	Thank you, may I have the phone number and address for the missing sock?	There is Bloomsbury restaurant and the varsity restaurant in the centre area. There is also the missing sock located in the east part of town.	none	international	none
+771	2	thank you good bye	The Missing Sock is located on the east side at Finders Corner Newmarket Road,  01223 812660 	none	international	none
+772	0	expensive mediterranean restaurant please 		none	mediterranean	expensive
+772	1	What is the phone number and postcode?	La mimosa is an expensive mediterranean restaurant in the centre part of town.  Would you like their location? 	none	mediterranean	expensive
+772	2	Thank you good bye. 	The phone number for La Mimosa is 01223 362525, and the postcode is CB58AQ.	none	mediterranean	expensive
+772	3	Thank you, goodbye.	thank you for using our system. good bye 	none	mediterranean	expensive
+773	0	Is there a restaurant in the centre of town serving halal food? 		centre	halal	none
+773	1	Is there any restaurant in the centre serving spanish food? 	No, there are no restaurants in the center of town serving Halal food.	centre	spanish	none
+773	2	I don't care.	There are two Spanish restaurants in the city centre. What price range are you looking for?	centre	spanish	dontcare
+773	3	La Raza sounds lovely. May I have the number and postcode please? 	La Raza is located int he centre of town and is in the cheap price range.	centre	spanish	dontcare
+773	4	No, thank you, I have all I need.  Goodbye!	Of course! Their number is 01223 464550 and their postcode is C.B 2, 3 L.L. Is there anything else I can do for you?	centre	spanish	dontcare
+773	5	Again, goodbye!	Good bye. It was a pleasure to assist you.	centre	spanish	dontcare
+774	0	My wife thinks she likes International but I don't want to take out a loan.		none	international	cheap
+774	1	I need something cheaper than that place. Do you have the phone number for a cheaper place?	The Missing Sock serves international food and the price range is inexpensive.	none	international	cheap
+774	2	Thank you, goodbye.	Unfortunately, The Missing Sock is the only inexpensive international restaurant in my search. Their phone number is 01223 812660 if you would like to call to verify their prices. 	none	international	cheap
+775	0	I am looking for a restaurant in the south part of town and serving portuguese food. What is the address and phone number?		south	portuguese	none
+775	1	Ok.  Thanks.	Nandos is a portuguese restaurant in the south part of town. Their address is Cambridge Leisure Park Clifton Way and their phone number is 01223 327908 	south	portuguese	none
+775	2	That is all, thank you, goodbye. 	Is there anything else we can help you with?	south	portuguese	none
+776	0	Can you help me find a cheap restaurant?		none	none	cheap
+776	1	It needs to be in the north part of town.	Sure. The first restaurant that I have found is the Italian restaurant Ask at 12 Bridge Street City Centre. Does that sound OK?	north	none	cheap
+776	2	Royal Spice,  phone number and address please	I found Da Vinci Pizzeria and Royal Spice. Which would you prefer?	north	none	cheap
+777	0	Looking for a Jamaican restaurant on the west side.  If not, let's try Italian.		west	jamaican	none
+777	1	ok, can I have the number for Prezzo?	There is no Jamaican restaurants on the west side. Prezzo is an Italian restaurant located on the west side.	west	italian	none
+777	2	Thank you very much for your help. That is all for now.	01799 521260	west	italian	none
+778	0	I want a moderately priced restaurant in the south part of town.		south	none	moderate
+778	1	can I please have the address and the phone number?	pizza hut cherry hinton	south	none	moderate
+778	2	Great, thank you!	the number is 01223 323737 and the address is G4 Cambridge Leisure Park Clifton Way Cherry Hinton	south	none	moderate
+778	3	You're very welcome! 	Thank you for using the Cambridge Restaurant System!	south	none	moderate
+779	0	I am looking for an expensive restaurant that serves Thai food.		none	thai	expensive
+779	1	Is there anything else? 	I have to options for Thai food in the expensive price range, Bangkok City and Sala Thong.	none	thai	expensive
+779	2	May I have the address and postcode for Sala Thong, then?	Those are the only results for expensive Thai food.  	none	thai	expensive
+779	3	Thank you goodbye.	The address of Sala Thong is 35 Newnham Road Newnham and the postcode is C.B 3, 9 E.Y.	none	thai	expensive
+780	0	I'm interested in a reasonable priced restaurant on the North side.  Could you provide me with the phone, address and the type of cuisine for the restaurant suggested?		north	none	moderate
+780	1	anything else?	I have two options for you, would you like Chinese or Indian ?	north	none	moderate
+780	2	I'd like the address and phone number for the indian restaurant please.	Those two are your only options unless you would like another area.	north	indian	moderate
+780	3	Okay, great. Thanks and have a good day.	The Nirala is located at 7 Milton Road in Chesterton.  Their phone number is 01223 360966.	north	indian	moderate
+781	0	Please suggest me a venetian restaurant in the moderate price range .		none	venetian	moderate
+781	1	Ok, how about a restaurant that serves gastropub type of food?	I'm sorry. There is not a restaurant meeting those criteria.  Would you like to try something else? 	none	gastropub	moderate
+781	2	Great! can you please give me the address and phone number? 	There is one moderately priced gastropub in the town centre called The Cow Pizza Kitchen And Bar.	none	gastropub	moderate
+781	3	Thank you, goodbye.	the phone and address are 01223 308871 Corn Exchange Street	none	gastropub	moderate
+782	0	Find a moderately priced place for me please.		none	none	moderate
+782	1	I don't care. 	What type of food do you want?	none	dontcare	moderate
+782	2	On the east side of town, please.	which area would you like? 	east	dontcare	moderate
+782	3	Great! what is the phone number? 	rajmahal is a moderately priced restaurant in the east part of town. 	east	dontcare	moderate
+782	4	Thank you, goodbye.	the phone number is 01223 244955, Is there anything I can help you with? 	east	dontcare	moderate
+783	0	Give me a vietnamese restaurant.		none	vietnamese	none
+783	1	How about the South part of town?	Is there a specific area you are looking for?	south	vietnamese	none
+783	2	How about Indian food?	There are no Vietnamese restaurants in the south part of town. May I help you find another? 	south	indian	none
+783	3	Can I get the phone number?	Yes, there is taj tandoori, an expensive restaurant in the south.	south	indian	none
+784	0	Hello, I am looking for a moderately priced restaurant that serves traditional food. 		none	traditional	moderate
+784	1	Please find moderately price restaurants that serve spanish type of food. 	There are no restaurants matching your request. Would you like a different one? 	none	spanish	moderate
+784	2	What is the address, phone number, and postcode?	The only restaurant fitting such criteria is La Tasca.	none	spanish	moderate
+784	3	Thank you, goodbye.	The address is 14 - 16 Bridge Street, the postcode is CB21UF, and the phone number is 01223 464630.	none	spanish	moderate
+785	0	I'm looking for a cheap Italian restaurant.		none	italian	cheap
+785	1	Sounds good. May I have their address and Phone number please?	I would recommend La Margharitas on the west side.	none	italian	cheap
+785	2	Thank you.  Goodbye	01223 315232 and it is located at 15 Magdalene Street City Centre	none	italian	cheap
+786	0	I would like a restaurant in the east part of town that serves british food		east	british	none
+786	1	Yes, please along with the phone number and the post code.  Thanks.	There is one british restaurant in the east part of town called grafton hotel restaurant. Would you like the phone number?	east	british	none
+786	2	Wonderful, thank you.	It's located at the Grafton Hotel restaurant.  The phone number is 01223 241387, and the postal code is C.B 5, 8 P.A.	east	british	none
+787	0	Hello. What's the most expensive restaurant in the east?		east	none	expensive
+787	1	I am looking for an Italian Restuarant with moderate prices in the east end of town? Can you suggest any? Thank You.	There are several expensive restaurants. Do you prefer Indian, British, Chinese or a Gastropub?	east	italian	moderate
+787	2	Do you have the address and phone number of a more expensive Italian restaurant in the east end of town? 	Pizza hut fen ditton is the only one I found.	east	italian	expensive
+787	3	Great, thank you for your help. Have a good one.	cambridge retail park newmarket road fen ditton phone 01223 323737	east	italian	expensive
+787	4	Goodbye.	And you as well. Thank you for calling.	east	italian	expensive
+788	0	I would like a moderately priced restaurant that serves creative food.		none	creative	moderate
+788	1	Yes. How about a restaurant that serves European food?	There are no results matching your query. Would you like to change your query?	none	european	moderate
+788	2	That sounds good, can I have the address and postcode please.	De Luca Cucina and Bar is moderately priced and serves modern European food.	none	european	moderate
+789	0	A moderately priced restaurant in the east part of town		east	none	moderate
+789	1	Is there anything else?	Three restaurants meet your specifications. One is Italian and two serve Indian food. Do you have a preference?	east	none	moderate
+789	2	address and phone number please	the curry prince is in the east part of town and is in the moderate price range.  Would you like their information?	east	none	moderate
+789	3	That's all I need.. Thank you and good bye. 	The address of the Curry Prince is 451 Newmarket Road Fen Ditton and the phone number is 01223 566388.	east	none	moderate
+790	0	hello, i'm looking for a restaurant that serves singaporean food		none	singaporean	none
+790	1	how about indian food	No restaurants found.	none	indian	none
+790	2	Cheap, please.	What price range are you looking for?	none	indian	cheap
+790	3	east	We have a few options, would you like North or center town?	east	indian	cheap
+790	4	I am looking for a restaurant on the East side of town that serves Indian food and I don't care about the price range.	Unfortunately, there are no cheap Indian restaurants in the East side of town.  Would you like either North or Centre instead?	east	indian	dontcare
+790	5	can i have the address and phone number to the curry prince please?	There are two moderately priced Indian restaurants on the east side: The Curry Prince and RajMahal. Would you like information about either of these?	east	indian	dontcare
+790	6	No thank you	The address is 451 Newmarket Road Fen Ditton. The phone number is 01223 566388. Can I help you with anything else?	east	indian	dontcare
+791	0	Hi I'm looking for a Malaysian restaurant on the north side of town.		north	malaysian	none
+791	1	Okay, how about Italian food?	There are no Malaysian restaurants on the north side of town.  Is there something else I may help you with?	north	italian	none
+791	2	Can I get the address and phone number?	I found Da Vinci Pizzaria. It's an inexpensive Italian restaurant on the north side.	north	italian	none
+791	3	No that's all. Thank you and Goodbye.	Here you go: 01223 351707 20 Milton Road Chesterton C.B 4, 1 J.Y.  Is there anything else I can help you with today?	north	italian	none
+792	0	I am looking for restaurants on the east side that are moderately priced and I need their numbers.		east	none	moderate
+792	1	Thank you, goodbye.	There is Curry prince, their phone number is 01223 566388.	east	none	moderate
+793	0	Hello I would like to find a restaurant in the west part of the city that costs a moderate amount.		west	none	moderate
+793	1	Yes and the address.	Prezzo is a moderately priced italian restaurant in the west part of town. Would you like their phone number?	west	none	moderate
+794	0	Hello, I am looking for a moderately priced restaurant that serves gastropub food. 		none	gastropub	moderate
+794	1	May I please have the phone number?	The Cow Pizza Kitchen and Bar serves Gastropub food and is in the moderate price range.	none	gastropub	moderate
+794	2	Thank You that's all	01223 308871 Will that be all?	none	gastropub	moderate
+795	0	Can you recommend me a moderate priced restaurant in the north part of town?		north	none	moderate
+795	1	Can I have the address of the Chinese restaurant?	I found two restaurants in the moderate price range in the north part of town. Would you prefer Chinese or Indian food?	north	chinese	moderate
+795	2	ok thank you good bye	The Golden Wok is a Chinese restaurant in the north part of town.  The address is 191 Histon Road Chesterton.	north	chinese	moderate
+796	0	Hi, I'm looking for a Vietnamese restaurant that's moderately priced.		none	vietnamese	moderate
+796	1	How about an asian restaurant?	No restaurants found	none	asian oriental	moderate
+796	2	Yes, please.  I'll need the phone, address and postcode.	Yes, Yippee Noodle Bar is in the centre.  Would you be interested in that one?	none	asian oriental	moderate
+796	3	Perfect, thanks!	Yippee Noodle Bar is located at 40428 King Street. They can be reached at 01223 518111. The post code is C.B 1 L.H. May I assist you further?	none	asian oriental	moderate
+796	4	Good bye.	Thanks for using our system!	none	asian oriental	moderate
+797	0	I need the address of an expensive restaurant in the east part of town.		east	none	expensive
+797	1	I don't have a preference. 	Would you prefer British, Indian, or Chinese food, or a gastropub?	east	dontcare	expensive
+797	2	Yes, please give me their address.	The grafton hotel restaurant serves british food, is in the east part of town and is in the expensive price range.  Would you like their location? 	east	dontcare	expensive
+797	3	thank you, goodbye. 	Their address is Grafton Hotel 619 Newmarket Road Fen Ditton	east	dontcare	expensive
+798	0	Please recommend me an expensive restaurant that serves afghan food.		none	afghan	expensive
+798	1	European food?	I'm not finding any restaurants that match your request. Would you like to try a different price range or food type?	none	european	expensive
+798	2	I don't care where it is.	There are four restaurants that serve European food. What part of town would you like?	dontcare	european	expensive
+798	3	what is the price range ?	Eraina in the centre is an expensive european restaurant. Would you like further information? 	dontcare	european	expensive
+798	4	What is the address, phone number, and area?	They are in the expensive price range. 	dontcare	european	expensive
+798	5	That'll do. Thank you. Good bye.	Eraina is in the centre of town located at Free School Lane City Centre. Their number is 01223 368786. Is there anything else I can do for you?	dontcare	european	expensive
+798	6	Thank you. Good bye.	Thank you, and have a great day!	dontcare	european	expensive
+799	0	hello, i'm looking for a cheap restaurant that serves all types of food		none	international	cheap
+799	1	Yes, definitely!  What is their number?	There is an international restaurant on the east end. Will this work?	none	international	cheap
+799	2	Is there a place that serves Vietnamese?	The phone number for The Missing Sock is 01223 812660. Would you like any further information?	none	vietnamese	cheap
+799	3	I would like a cheap restaurant in any area that serves world food but if there isn't one available then Vietnamese food would be fine and I just need their phone number.	There is thanh binh on the west side.  Would you like the address and number?	dontcare	world	cheap
+799	4	Thank you	The phone number for Thanh Binh is 01223 362456.	dontcare	vietnamese	cheap
+799	5	Nope. I'm calling the restaurant now. Bye and thanks for your help.	Is there anything else?	dontcare	vietnamese	cheap

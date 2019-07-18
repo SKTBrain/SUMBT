@@ -1,0 +1,43 @@
+attraction-area	9766	1514	1453
+attraction-name	5843	940	978
+attraction-type	10525	1566	1545
+bus-day	5	0	0
+bus-departure	31	0	0
+bus-destination	33	0	0
+bus-leaveAt	5	0	0
+hospital-department	392	7	0
+hotel-area	10885	1343	1018
+hotel-book day	8745	1110	1016
+hotel-book people	8734	1101	1004
+hotel-book stay	8715	1098	1002
+hotel-internet	8012	1006	937
+hotel-name	8621	1182	1156
+hotel-parking	8179	885	919
+hotel-price range	9793	1317	1272
+hotel-stars	9330	1136	1064
+hotel-type	10110	1253	1152
+restaurant-area	14741	1849	1896
+restaurant-book day	9021	1195	1282
+restaurant-book people	9026	1191	1287
+restaurant-book time	8958	1186	1273
+restaurant-food	16095	1834	1960
+restaurant-name	7293	1143	1092
+restaurant-price range	14410	1721	1785
+taxi-arrive by	1794	241	231
+taxi-departure	4037	589	570
+taxi-destination	4108	581	574
+taxi-leave at	2165	357	321
+train-arrive by	7488	1382	1476
+train-book people	6178	1088	1112
+train-day	15384	2490	2601
+train-departure	15672	2510	2563
+train-destination	15951	2593	2662
+train-leave at	7563	1086	1106
+----- total ----- 
+attraction	26134	4020	3976
+bus	74	0	0
+hospital	392	7	0
+hotel	91124	11431	10540
+restaurant	79544	10119	10575
+taxi	12104	1768	1696
+train	68236	11149	11520
