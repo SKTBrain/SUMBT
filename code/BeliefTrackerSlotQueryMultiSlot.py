@@ -277,7 +277,7 @@ class BeliefTracker(nn.Module):
         if n_gpu == 1:
             return loss, loss_slot, acc, acc_slot, pred_slot
         else:
-            return loss.unsqueeze(0), None, acc.unsqueeze(0), acc_slot.unsqueeze(0), None
+            return loss.unsqueeze(0), None, acc.unsqueeze(0), acc_slot.unsqueeze(0), pred_slot.unsqueeze(0)
 
     @staticmethod
     def init_parameter(module):

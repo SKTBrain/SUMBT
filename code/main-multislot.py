@@ -16,8 +16,6 @@ from pytorch_pretrained_bert.optimization import BertAdam
 
 from tensorboardX import SummaryWriter
 
-import pdb
-
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
                     level=logging.INFO)
@@ -371,7 +369,7 @@ def main():
                         default=None,
                         type=str,
                         required=True,
-                        help="The name of the task to train: bert-gru-sumbt, bert-lstm-sumbt" # TODO
+                        help="The name of the task to train: bert-gru-sumbt, bert-lstm-sumbt"
                              "bert-label-embedding, bert-gru-label-embedding, bert-lstm-label-embedding")
     parser.add_argument("--output_dir",
                         default=None,
@@ -511,8 +509,8 @@ def main():
         raise ValueError("At least one of `do_train` or `do_eval` must be True.")
 
     # Tensorboard logging
-    tb_file_name = args.output_dir.split('/')[1]
     if not args.do_not_use_tensorboard:
+        tb_file_name = args.output_dir.split('/')[1]
         summary_writer = SummaryWriter("./%s/%s" % (args.tf_dir, tb_file_name))
     else:
         summary_writer = None
@@ -571,7 +569,7 @@ def main():
         train_examples = processor.get_train_examples(args.data_dir, accumulation=accumulation)
         dev_examples = processor.get_dev_examples(args.data_dir, accumulation=accumulation)
         num_train_steps = int(len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
-        num_dev_steps = int(en(dev_examples) / args.dev_batch_size * args.num_train_epochs)
+        num_dev_steps = int(len(dev_examples) / args.dev_batch_size * args.num_train_epochs)
 
         ## Training utterances
         all_input_ids, all_input_len, all_label_ids = convert_examples_to_features(
@@ -710,7 +708,6 @@ def main():
         best_loss = None
 
         for epoch in trange(int(args.num_train_epochs), desc="Epoch"):
-
             # Train
             model.train()
             tr_loss = 0
@@ -725,7 +722,7 @@ def main():
                 if n_gpu == 1:
                     loss, loss_slot, acc, acc_slot, _ = model(input_ids, input_len, label_ids, n_gpu)
                 else:
-                    loss_, _, acc, acc_slot, _ = model(input_ids, input_len, label_ids, n_gpu)
+                    loss, _, acc, acc_slot, _ = model(input_ids, input_len, label_ids, n_gpu)
 
                     # average to multi-gpus
                     loss = loss.mean()
@@ -846,7 +843,6 @@ def main():
     ###############################################################################
     # Evaluation
     ###############################################################################
-
     # Load a trained model that you have fine-tuned
     output_model_file = os.path.join(args.output_dir, "pytorch_model.bin")
     model = BeliefTracker(args, num_labels, device)
@@ -865,13 +861,6 @@ def main():
     # in the case that slot and values are different between the training and evaluation
     ptr_model = torch.load(output_model_file)
 
-    del_list = []
-    for key in ptr_model.keys():
-        if ('slot' in key) or ('value' in key):
-            del_list.append(key)
-    for key in del_list:
-        del ptr_model[key]
-
     if n_gpu == 1:
         state = model.state_dict()
         state.update(ptr_model)
@@ -881,7 +870,6 @@ def main():
         model.module.load_state_dict(ptr_model)
 
     model.to(device)
-    model.initialize_slot_value_lookup(label_token_ids, slot_token_ids)
 
     # Evaluation
     if args.do_eval and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
@@ -905,6 +893,9 @@ def main():
         eval_loss_slot, eval_acc_slot = None, None
         nb_eval_steps, nb_eval_examples = 0, 0
 
+        accuracies = {'joint7':0, 'slot7':0, 'joint5':0, 'slot5':0, 'joint_rest':0, 'slot_rest':0,
+                      'num_turn':0, 'num_slot7':0, 'num_slot5':0, 'num_slot_rest':0}
+
         for input_ids, input_len, label_ids in tqdm(eval_dataloader, desc="Evaluating"):
             if input_ids.dim() == 2:
                 input_ids = input_ids.unsqueeze(0)
@@ -915,7 +906,12 @@ def main():
                 if n_gpu == 1:
                     loss, loss_slot, acc, acc_slot, pred_slot = model(input_ids, input_len, label_ids, n_gpu)
                 else:
-                    loss, _, acc, acc_slot, _ = model(input_ids, input_len, label_ids, n_gpu)
+                    loss, _, acc, acc_slot, pred_slot = model(input_ids, input_len, label_ids, n_gpu)
+                    nbatch = label_ids.size(0)
+                    nslot = pred_slot.size(3)
+                    pred_slot = pred_slot.view(nbatch, -1, nslot)
+
+            accuracies = eval_all_accs(pred_slot, label_ids, accuracies)
 
             nb_eval_ex = (label_ids[:,:,0].view(-1) != -1).sum().item()
             nb_eval_examples += nb_eval_ex
@@ -945,7 +941,6 @@ def main():
         if n_gpu == 1:
             result = {'eval_loss': eval_loss,
                       'eval_accuracy': eval_accuracy,
-                      'global_step': global_step,
                       'loss': loss,
                       'eval_loss_slot':'\t'.join([ str(val/ nb_eval_examples) for val in eval_loss_slot]),
                       'eval_acc_slot':'\t'.join([ str((val).item()) for val in eval_acc_slot])
@@ -953,7 +948,6 @@ def main():
         else:
             result = {'eval_loss': eval_loss,
                       'eval_accuracy': eval_accuracy,
-                      'global_step': global_step,
                       'loss': loss
                       }
 
@@ -967,6 +961,56 @@ def main():
             for key in sorted(result.keys()):
                 logger.info("  %s = %s", key, str(result[key]))
                 writer.write("%s = %s\n" % (key, str(result[key])))
+
+        out_file_name = 'eval_all_accuracies'
+        with open(os.path.join(args.output_dir, "%s.txt" % out_file_name), 'w') as f:
+            f.write('joint acc (7 domain) : slot acc (7 domain) : joint acc (5 domain): slot acc (5 domain): joint restaurant : slot acc restaurant \n')
+            f.write('%.5f : %.5f : %.5f : %.5f : %.5f : %.5f \n' % (
+                (accuracies['joint7']/accuracies['num_turn']).item(),
+                (accuracies['slot7']/accuracies['num_slot7']).item(),
+                (accuracies['joint5']/accuracies['num_turn']).item(),
+                (accuracies['slot5'] / accuracies['num_slot5']).item(),
+                (accuracies['joint_rest']/accuracies['num_turn']).item(),
+                (accuracies['slot_rest'] / accuracies['num_slot_rest']).item()
+            ))
+
+def eval_all_accs(pred_slot, labels, accuracies):
+
+    def _eval_acc(_pred_slot, _labels):
+        slot_dim = _labels.size(-1)
+        accuracy = (_pred_slot == _labels).view(-1, slot_dim)
+        num_turn = torch.sum(_labels[:, :, 0].view(-1) > -1, 0).float()
+        num_data = torch.sum(_labels > -1).float()
+        # joint accuracy
+        joint_acc = sum(torch.sum(accuracy, 1) / slot_dim).float()
+        # slot accuracy
+        slot_acc = torch.sum(accuracy).float()
+        return joint_acc, slot_acc, num_turn, num_data
+
+    # 7 domains
+    joint_acc, slot_acc, num_turn, num_data = _eval_acc(pred_slot, labels)
+    accuracies['joint7'] += joint_acc
+    accuracies['slot7'] += slot_acc
+    accuracies['num_turn'] += num_turn
+    accuracies['num_slot7'] += num_data
+
+    # restaurant domain
+    joint_acc, slot_acc, num_turn, num_data = _eval_acc(pred_slot[:,:,18:25], labels[:,:,18:25])
+    accuracies['joint_rest'] += joint_acc
+    accuracies['slot_rest'] += slot_acc
+    accuracies['num_slot_rest'] += num_data
+
+    pred_slot5 = torch.cat((pred_slot[:,:,0:3], pred_slot[:,:,8:]), 2)
+    label_slot5 = torch.cat((labels[:,:,0:3], labels[:,:,8:]), 2)
+
+    # 5 domains (excluding bus and hotel domain)
+    joint_acc, slot_acc, num_turn, num_data = _eval_acc(pred_slot5, label_slot5)
+    accuracies['joint5'] += joint_acc
+    accuracies['slot5'] += slot_acc
+    accuracies['num_slot5'] += num_data
+
+    return accuracies
+
 
 if __name__ == "__main__":
     main()

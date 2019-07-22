@@ -23,7 +23,7 @@ This is the original PyTorch implemenation of [SUMBT: Slot-Utterance Matching fo
 Please see ``run.sh``
 * Training and evaluation
 ```
-python3 code/Main-multislot.py --do_train --do_eval --data_dir data/woz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-slot_query_multi --nbt rnn --output_dir exp-woz/ --target_slot all 
+python3 code/Main-multislot.py --do_train --do_eval --data_dir data/woz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-slot_query_multi --nbt rnn --output_dir exp-woz/model --target_slot all 
 ``` 
 * Specifying slots (or domains) to train with the option `` --target_slots=$target_slots``
   * e.g., For WOZ2.0, "0:1", "0:2", "1:2" (0=Area, 1=Food, 2=Pricerange)
@@ -32,6 +32,18 @@ python3 code/Main-multislot.py --do_train --do_eval --data_dir data/woz --bert_m
 
 * This code supports Multi-gpu training 
   * ```CUDA_VISIBLE_DEVICES=$cuda python3 code/Main-multislot.py```
+
+### Experiment result on MultiWOZ
+* Command
+```
+python3 code/main-multislot.py --do_train --do_eval --num_train_epochs 300 --data_dir data/multiwoz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-sumbt --nbt rnn --output_dir exp-multiwoz/model --target_slot all --warmup_proportion 0.1 --learning_rate 5e-5 --train_batch_size 4 --eval_batch_size 16 --distance_metric euclidean --patience 15 --tf_dir tensorboard --hidden_dim 300 --max_label_length 32 --max_seq_length 64 --max_turn_length 22
+```
+* Experiment result
+
+| Joint acc. |  Slot acc. | Joint acc. (Restaurant) | Slot acc. (Restaurant) |
+| --- | --- | --- | --- |
+| 0.46649 | 0.9644 | 0.80507 | 0.96179 |
+
 
 ## Notes and Acknowledgements
 The code is developed based on PyTorch BERT from https://github.com/huggingface/pytorch-pretrained-BERT and [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
