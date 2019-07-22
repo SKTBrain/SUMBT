@@ -13,10 +13,10 @@ This is the original PyTorch implemenation of [SUMBT: Slot-Utterance Matching fo
 * Download corpus
   * WOZ2.0: [download](https://github.com/nmrksic/neural-belief-tracker/tree/master/data/woz)
   * MultiWOZ: [download](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/)
-    * Note: Our experiment conducted on MultiWOZ 2.0 corpus
+    * Note: our experiments conducted on MultiWOZ 2.0 corpus
 * Pre-process corpus
   * The download original corpus are loacated in ``data/$corpus/original``
-  * see ``data/$corpus/original/convert_to_glue_format.py``
+  * See ``data/$corpus/original/convert_to_glue_format.py``
   * The pre-processed data are located in ``data/$corpus/``
 
 ### Train SUMBT
@@ -33,7 +33,7 @@ python3 code/Main-multislot.py --do_train --do_eval --data_dir data/woz --bert_m
 * This code supports Multi-gpu training 
   * ```CUDA_VISIBLE_DEVICES=$cuda python3 code/Main-multislot.py```
 
-### Experiment result on MultiWOZ
+### Experiment results on MultiWOZ
 * Command
 ```
 python3 code/main-multislot.py --do_train --do_eval --num_train_epochs 300 --data_dir data/multiwoz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-sumbt --nbt rnn --output_dir exp-multiwoz/model --target_slot all --warmup_proportion 0.1 --learning_rate 5e-5 --train_batch_size 4 --eval_batch_size 16 --distance_metric euclidean --patience 15 --tf_dir tensorboard --hidden_dim 300 --max_label_length 32 --max_seq_length 64 --max_turn_length 22
