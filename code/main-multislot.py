@@ -5,6 +5,9 @@ import argparse
 import random
 import collections
 from tqdm import tqdm, trange
+import json
+
+import pdb
 
 import numpy as np
 import torch
@@ -83,8 +86,6 @@ class Processor(DataProcessor):
 
     def __init__(self, config):
         super(Processor, self).__init__()
-
-        import json
 
         # WOZ2.0 dataset
         if config.data_dir == "data/woz" or config.data_dir=="data/woz-turn":
@@ -568,12 +569,13 @@ def main():
     if args.do_train:
         train_examples = processor.get_train_examples(args.data_dir, accumulation=accumulation)
         dev_examples = processor.get_dev_examples(args.data_dir, accumulation=accumulation)
-        num_train_steps = int(len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
-        num_dev_steps = int(len(dev_examples) / args.dev_batch_size * args.num_train_epochs)
 
         ## Training utterances
         all_input_ids, all_input_len, all_label_ids = convert_examples_to_features(
             train_examples, label_list, args.max_seq_length, tokenizer, args.max_turn_length)
+
+        num_train_batches = all_input_ids.size(0)
+        num_train_steps = int(num_train_batches / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
 
         logger.info("***** Running training *****")
         logger.info("  Num examples = %d", len(train_examples))
@@ -593,10 +595,10 @@ def main():
         ## Dev utterances
         all_input_ids_dev, all_input_len_dev, all_label_ids_dev = convert_examples_to_features(
             dev_examples, label_list, args.max_seq_length, tokenizer, args.max_turn_length)
+
         logger.info("***** Running validation *****")
         logger.info("  Num examples = %d", len(dev_examples))
         logger.info("  Batch size = %d", args.dev_batch_size)
-        logger.info("  Num steps = %d", num_dev_steps)
 
         all_input_ids_dev, all_input_len_dev, all_label_ids_dev = \
             all_input_ids_dev.to(device), all_input_len_dev.to(device), all_label_ids_dev.to(device)
@@ -956,11 +958,12 @@ def main():
             out_file_name += '_all'
         output_eval_file = os.path.join(args.output_dir, "%s.txt" % out_file_name)
 
-        with open(output_eval_file, "w") as writer:
-            logger.info("***** Eval results *****")
-            for key in sorted(result.keys()):
-                logger.info("  %s = %s", key, str(result[key]))
-                writer.write("%s = %s\n" % (key, str(result[key])))
+        if n_gpu == 1:
+            with open(output_eval_file, "w") as writer:
+                logger.info("***** Eval results *****")
+                for key in sorted(result.keys()):
+                    logger.info("  %s = %s", key, str(result[key]))
+                    writer.write("%s = %s\n" % (key, str(result[key])))
 
         out_file_name = 'eval_all_accuracies'
         with open(os.path.join(args.output_dir, "%s.txt" % out_file_name), 'w') as f:
