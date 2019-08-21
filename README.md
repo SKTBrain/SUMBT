@@ -50,7 +50,13 @@ The code is developed based on PyTorch BERT from https://github.com/huggingface/
 
 ### Citation
 ```
-@article{~~~~}
+@inproceedings{lee2019sumbt,
+  title={SUMBT: Slot-Utterance Matching for Universal and Scalable Belief Tracking},
+  author={Lee, Hwaran and Lee, Jinsik and Kim, Tae-Yoon},
+  booktitle={Proceedings of the 57th Conference of the Association for Computational Linguistics},
+  pages={5478--5483},
+  year={2019}
+}
 ```
 
 ### Contact Information
