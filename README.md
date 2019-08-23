@@ -36,13 +36,14 @@ python3 code/Main-multislot.py --do_train --do_eval --data_dir data/woz --bert_m
 ### Experiment results on MultiWOZ
 * Command
 ```
-python3 code/main-multislot.py --do_train --do_eval --num_train_epochs 300 --data_dir data/multiwoz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-sumbt --nbt rnn --output_dir exp-multiwoz/model --target_slot all --warmup_proportion 0.1 --learning_rate 5e-5 --train_batch_size 4 --eval_batch_size 16 --distance_metric euclidean --patience 15 --tf_dir tensorboard --hidden_dim 300 --max_label_length 32 --max_seq_length 64 --max_turn_length 22
+python3 code/main-multislot.py --do_train --do_eval --num_train_epochs 300 --data_dir data/multiwoz --bert_model bert-base-uncased --do_lower_case --task_name bert-gru-sumbt --nbt rnn --output_dir exp-multiwoz/model --target_slot all --warmup_proportion 0.1 --learning_rate 1e-4 --train_batch_size 3 --eval_batch_size 16 --distance_metric euclidean --patience 15 --tf_dir tensorboard --hidden_dim 300 --max_label_length 32 --max_seq_length 64 --max_turn_length 22
 ```
 * Experiment result
 
-| Joint acc. |  Slot acc. | Joint acc. (Restaurant) | Slot acc. (Restaurant) |
-| --- | --- | --- | --- |
-| 0.46649 | 0.9644 | 0.80507 | 0.96179 |
+| Hidden dim | Joint acc. |  Slot acc. | Joint acc. (Restaurant) | Slot acc. (Restaurant) |
+| --- | --- | --- | --- | --- |
+| 300 | 0.48806 | 0.97329 | 0.82854 | 0.96537 |
+| 600 | 0.49064 | 0.97290 | 0.82840 | 0.96475 |
 
 
 ## Notes and Acknowledgements
